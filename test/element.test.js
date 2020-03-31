@@ -1,3 +1,5 @@
+const internetPage = require("../pages/internet.page")
+
 describe("Interacting with elements", function () {
     it("Get text for element", () => {
         browser.url('/')
@@ -13,5 +15,8 @@ describe("Interacting with elements", function () {
         
         text = $("//*[@id='page-footer']").getText()
         console.log(text)
+
+        internetPage.getLiText()
+        internetPage.getSpecificElementText(3)
     })
 })
