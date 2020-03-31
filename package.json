@@ -1,7 +1,10 @@
 {
   "name": "webdriverio-tutorial",
   "version": "1.0.0",
-  "author": "Guilherme Heuser Prestes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
   "license": "MIT",
   "devDependencies": {
     "@wdio/dot-reporter": "^6.0.4",
