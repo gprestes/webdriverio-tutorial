@@ -8,10 +8,14 @@ class Internet {
     get h3Header() { return $('h3') }
     get username() { return $('#username') }
     get password() { return $('#password') }
+    get target() { return $('.example #target') }
+    get result() { return $('.example #result') }
 
     specificChildElement(index) { return this.parent.$(`li:nth-child(${index})`) }
     checkboxes(index) { return $(`#checkboxes input:nth-child(${index})`) }
     link(index) { return $(`ul li:nth-child(${index}) a`) }
+    figures(index) { return $(`.example .figure:nth-child(${index}) img`) }
+    figureDetails(index) { return $(`.example .figure:nth-child(${index}) .figcaption h5`) }
 
     getLiText() {
         this.childElements.filter((element) => {
@@ -30,6 +34,7 @@ class Internet {
         }
         this.h3Header.waitForDisplayed()
     }
+
     /**
     * Clicks on the link based on the index provided
     * @param {Number} index the index of the element
@@ -60,6 +65,46 @@ class Internet {
     enterPassword(text) {
         this.password.waitForDisplayed()
         this.password.setValue(text)
+    }
+
+    /**
+    * Hovers over the specified image
+    * @param {Number} index the specific index of the image
+    */
+    hoverOnFigure(index) {
+        this.figures(index).waitForDisplayed()
+        this.figures(index).moveTo(1, 1)
+    }
+
+    /**
+    * Returns the text of the figure details
+    * @param {Number} index the index of the element
+    */
+    getFigureDetailsText(index) {
+        this.figureDetails(index).waitForDisplayed()
+        return this.figureDetails(index).getText()
+    }
+
+    /**
+     * Clicks the target input field
+     */
+    clickTarget() {
+        this.target.waitForDisplayed()
+        this.target.click()
+    }
+
+    /**
+     * Send keyboard keys to Target
+     * @param {String} text The keyboard text to enter
+     */
+    sendKeysToTarget(text) {
+        this.target.waitForDisplayed()
+        this.target.keys(text)
+    }
+
+    getResultText() {
+        this.result.waitForDisplayed()
+        return this.result.getText()
     }
 }
 
