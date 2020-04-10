@@ -106,6 +106,13 @@ class Internet {
         this.result.waitForDisplayed()
         return this.result.getText()
     }
+
+    /**
+     * scrolls to the page footer
+     */
+    scrollToPageFooter() {
+        this.pageFooter.moveTo()
+    }
 }
 
 module.exports = new Internet()
