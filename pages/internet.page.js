@@ -10,6 +10,9 @@ class Internet {
     get password() { return $('#password') }
     get target() { return $('.example #target') }
     get result() { return $('.example #result') }
+    get hereLink() { return $('.example a') }
+    get iframeBody() { return $('#tinymce') }
+    get iframe() { return $('#mceu_27 #mce_0_ifr') }
 
     specificChildElement(index) { return this.parent.$(`li:nth-child(${index})`) }
     checkboxes(index) { return $(`#checkboxes input:nth-child(${index})`) }
@@ -112,6 +115,25 @@ class Internet {
      */
     scrollToPageFooter() {
         this.pageFooter.moveTo()
+    }
+
+    /**
+     * Click the "click here" link
+     */
+    clickHereLink() {
+        this.hereLink.waitForDisplayed()
+        this.hereLink.click()
+    }
+
+    /**
+     * Enter text in the iframe
+     * @param {String} text the text to be entered
+     */
+    sendTextToBody(text) {
+        this.iframeBody.waitForDisplayed()
+        this.iframeBody.clearValue()
+        this.iframeBody.click()
+        this.iframeBody.keys(text)
     }
 }
 
