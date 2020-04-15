@@ -23,6 +23,8 @@ class Internet {
     get dropdownMenu() { return $('#dropdown') }
     get dropdownMenuOption1() { return $('#dropdown option:nth-child(2)') }
     get dropdownMenuOption2() { return $('#dropdown option:nth-child(3)') }
+    get enableButton() { return $('#input-example button') }
+    get inputEnabledField() { return $('#input-example input') }
 
     specificChildElement(index) { return this.parent.$(`li:nth-child(${index})`) }
     checkboxes(index) { return $(`#checkboxes input:nth-child(${index})`) }
@@ -191,6 +193,14 @@ class Internet {
     clickJavascriptAlertButton(index) {
         this.javascriptAlertButton(index).waitForDisplayed()
         this.javascriptAlertButton(index).click()
+    }
+
+    /**
+     * Click the Enable/Disable button
+     */
+    clickEnableButton() {
+        this.enableButton.waitForDisplayed()
+        this.enableButton.click()
     }
 }
 
