@@ -29,6 +29,7 @@ class Internet {
     link(index) { return $(`ul li:nth-child(${index}) a`) }
     figures(index) { return $(`.example .figure:nth-child(${index}) img`) }
     figureDetails(index) { return $(`.example .figure:nth-child(${index}) .figcaption h5`) }
+    javascriptAlertButton(index) { return $(`.example li:nth-child(${index}) button`) }
 
     getLiText() {
         this.childElements.filter((element) => {
@@ -115,6 +116,9 @@ class Internet {
         this.target.keys(text)
     }
 
+    /**
+     * return the text of the return element
+     */
     getResultText() {
         this.result.waitForDisplayed()
         return this.result.getText()
@@ -178,6 +182,15 @@ class Internet {
     clickDropdownMenuOption2() {
         this.dropdownMenuOption2.waitForDisplayed()
         this.dropdownMenuOption2.click()
+    }
+
+    /**
+     * Click the specified javascript alert button
+     * @param {Number} index the index of the element
+     */
+    clickJavascriptAlertButton(index) {
+        this.javascriptAlertButton(index).waitForDisplayed()
+        this.javascriptAlertButton(index).click()
     }
 }
 
