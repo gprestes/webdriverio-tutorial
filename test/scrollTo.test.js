@@ -1,9 +1,9 @@
 const internetPage = require('../pages/internet.page')
 
 describe('Scroll to Element', function () {
-    it.skip('should scroll to the footer', () =>{
+    it.skip('should scroll to the footer', () => {
         browser.url('/')
-        internetPage.pageHeader.waitForDisplayed()
+        internetPage.pageHeader.waitForDisplayed({ timeout: 1000, reverse: true })
         internetPage.scrollToPageFooter()
         assert.equal(true, internetPage.pageFooter.isDisplayedInViewport())
     })
