@@ -26,6 +26,7 @@ class Internet {
     get enableButton() { return $('#input-example button') }
     get inputEnabledField() { return $('#input-example input') }
     get exampleButton() { return $('.example button') }
+    get pageButton() { return $('#checkbox-example button') }
 
     specificChildElement(index) { return this.parent.$(`li:nth-child(${index})`) }
     checkboxes(index) { return $(`#checkboxes input:nth-child(${index})`) }
@@ -220,6 +221,14 @@ class Internet {
     clickDeleteButton(index) {
         this.deleteButton(index).waitForDisplayed()
         this.deleteButton(index).click()
+    }
+
+    /**
+     * Click the Page Button
+     */
+    clickPageButton() {
+        this.pageButton.waitForDisplayed()
+        this.pageButton.click()
     }
 }
 
