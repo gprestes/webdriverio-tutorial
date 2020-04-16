@@ -25,6 +25,7 @@ class Internet {
     get dropdownMenuOption2() { return $('#dropdown option:nth-child(3)') }
     get enableButton() { return $('#input-example button') }
     get inputEnabledField() { return $('#input-example input') }
+    get exampleButton() { return $('.example button') }
 
     specificChildElement(index) { return this.parent.$(`li:nth-child(${index})`) }
     checkboxes(index) { return $(`#checkboxes input:nth-child(${index})`) }
@@ -32,6 +33,7 @@ class Internet {
     figures(index) { return $(`.example .figure:nth-child(${index}) img`) }
     figureDetails(index) { return $(`.example .figure:nth-child(${index}) .figcaption h5`) }
     javascriptAlertButton(index) { return $(`.example li:nth-child(${index}) button`) }
+    deleteButton(index) { return $(`#elements button:nth-child(${index})`) }
 
     getLiText() {
         this.childElements.filter((element) => {
@@ -201,6 +203,23 @@ class Internet {
     clickEnableButton() {
         this.enableButton.waitForDisplayed()
         this.enableButton.click()
+    }
+
+    /**
+     * Click the Example Button
+     */
+    clickExampleButton() {
+        this.exampleButton.waitForDisplayed()
+        this.exampleButton.click()
+    }
+
+    /**
+     * Clicks the delete button
+     * @param {Number} index index of the element
+     */
+    clickDeleteButton(index) {
+        this.deleteButton(index).waitForDisplayed()
+        this.deleteButton(index).click()
     }
 }
 
