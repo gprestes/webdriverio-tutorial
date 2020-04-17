@@ -418,6 +418,16 @@
     async-exit-hook "^2.0.1"
     stream-buffers "^3.0.2"
 
+"@wdio/logger@6.0.16":
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.16.tgz#eef00e8369d8a5c86080a27d8bab41ad7dcdd2b2"
+  integrity sha512-VbH5UnQIG/3sSMV+Y38+rOdwyK9mVA9vuL7iOngoTafHwUjL1MObfN/Cex84L4mGxIgfxCu6GV48iUmSuQ7sqA==
+  dependencies:
+    chalk "^4.0.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.8.4"
+    strip-ansi "^6.0.0"
+
 "@wdio/logger@6.0.7":
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.7.tgz#cd6ffd04a23d48336a26f8ba4e91beef6e537cca"
@@ -470,13 +480,13 @@
     webdriver "6.0.7"
     webdriverio "6.0.7"
 
-"@wdio/selenium-standalone-service@^6.0.4":
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-6.0.7.tgz#0a54279c7e10ca193d43789f0a9e093bde020222"
-  integrity sha512-8+cWpTv5ukY7CuDTcJyRpvPciHdaa6f+X7BgJvtHNlSb/v3DbyvaSCf56eU/NHlZlodnq+N3pN6UuEfFQJuuKQ==
+"@wdio/selenium-standalone-service@^6.0.16":
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-6.0.16.tgz#1cd69d86031b3c8abc4ab709801d38ee87f7c9c0"
+  integrity sha512-xYGyqEGZLKltOIknx1oOJeCPOqrTj9Hd8cEUQHUIn+T9LK6WASxidYClDJHNYKS7wwp7BYZc1Zlqn2dRabTb6Q==
   dependencies:
     "@types/selenium-standalone" "^6.15.0"
-    "@wdio/logger" "6.0.7"
+    "@wdio/logger" "6.0.16"
     fs-extra "^9.0.0"
     selenium-standalone "^6.15.1"
 
@@ -1019,6 +1029,14 @@ chalk@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
   integrity sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"
+  integrity sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
