@@ -449,6 +449,13 @@
   dependencies:
     "@wdio/utils" "6.0.7"
 
+"@wdio/reporter@6.0.14":
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-6.0.14.tgz#fda804b0596896d99a00fa57c830f2ea20b03b7b"
+  integrity sha512-GcdnH8iY5kHfI5eW5ri0UyFGrgXbYgoHeX8My9uzU/H/k0zPjjhXEzUS6KoJiaTVxsaIl7we6WYou31moBFkPA==
+  dependencies:
+    fs-extra "^9.0.0"
+
 "@wdio/reporter@6.0.7":
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-6.0.7.tgz#bfe80f2741c2952c12e3a75565434700ca9979d1"
@@ -480,13 +487,13 @@
     fs-extra "^9.0.0"
     selenium-standalone "^6.15.1"
 
-"@wdio/spec-reporter@^6.0.4":
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-6.0.7.tgz#18b751bed0136fad86f706cec823993d3002fd0f"
-  integrity sha512-wB/p9qrzDbjwPbPT8YRS8AN14xzXpvk8/tl4PAgKqW5PZAGWi/dLURbNE7INU1I/c5rNq+VMwJTCFNUrzfldzA==
+"@wdio/spec-reporter@^6.0.16":
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-6.0.16.tgz#0cd1edc7bef53b18212d2fb9377b6d1db6477dbe"
+  integrity sha512-0Pe0xlOvZRg96zbz9ge1uwy1FGO2VrkQ2e0zoXjmC90QUfIP/o2liy4XUnlvWBJpUvEDbdRr2vJpaP9FOSAUgQ==
   dependencies:
-    "@wdio/reporter" "6.0.7"
-    chalk "^3.0.0"
+    "@wdio/reporter" "6.0.14"
+    chalk "^4.0.0"
     easy-table "^1.1.1"
     pretty-ms "^6.0.0"
 
@@ -1019,6 +1026,14 @@ chalk@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
   integrity sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"
+  integrity sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
