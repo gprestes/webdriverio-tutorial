@@ -390,6 +390,15 @@
     yargs "^15.0.1"
     yarn-install "^1.0.0"
 
+"@wdio/config@6.0.16":
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-6.0.16.tgz#4a5f44fe71883127a8a3dbf5529821f04c060ec3"
+  integrity sha512-QUMjVAE8uUYE44Rrp+D8EYF8NoJLsoBSxckaKTuOpueG64zRxOrks8WCsY85jXupeDeo5UTCItFrY0tfMyNctw==
+  dependencies:
+    "@wdio/logger" "6.0.16"
+    deepmerge "^4.0.0"
+    glob "^7.1.2"
+
 "@wdio/config@6.0.7":
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/@wdio/config/-/config-6.0.7.tgz#0f234b74b83335431cbdca0993f2b5a4044bfe19"
@@ -418,6 +427,16 @@
     async-exit-hook "^2.0.1"
     stream-buffers "^3.0.2"
 
+"@wdio/logger@6.0.16":
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.16.tgz#eef00e8369d8a5c86080a27d8bab41ad7dcdd2b2"
+  integrity sha512-VbH5UnQIG/3sSMV+Y38+rOdwyK9mVA9vuL7iOngoTafHwUjL1MObfN/Cex84L4mGxIgfxCu6GV48iUmSuQ7sqA==
+  dependencies:
+    chalk "^4.0.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.8.4"
+    strip-ansi "^6.0.0"
+
 "@wdio/logger@6.0.7":
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.7.tgz#cd6ffd04a23d48336a26f8ba4e91beef6e537cca"
@@ -437,10 +456,22 @@
     "@wdio/utils" "6.0.7"
     mocha "^7.0.1"
 
+"@wdio/protocols@6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@wdio/protocols/-/protocols-6.0.12.tgz#b5f5c176e2021033452a738dcf3e4ece7b991c60"
+  integrity sha512-MeOXn3AirCosPFirIZhpxKWCq71Z146MiVpBRVPZHpVvzCPQ6eR8ECKcH4XOD9SyZxqESlpbDXtZkCgQqglOIw==
+
 "@wdio/protocols@6.0.7":
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/@wdio/protocols/-/protocols-6.0.7.tgz#8737e7d023f3d621980a3cd3b3ed80e7c3f5fa03"
   integrity sha512-XpreL/MPQBC3BYJYr820fljQf1ms3PLuqz0uUYmelhpKw6LXdLIOaCfzF0M+iJN4FYPC3OHkuE1eEkKN+cC7PQ==
+
+"@wdio/repl@6.0.16":
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/@wdio/repl/-/repl-6.0.16.tgz#5ba57013efd1352e6d661fc581d2d1958b773293"
+  integrity sha512-zFymETBmlX4I+cRq0GjRBSF+pDWMk915Qm3hsCQtvuXjIr+6XoMvJsCcj6l6dNrqTFL5asAq9CGOo29GOTaZqA==
+  dependencies:
+    "@wdio/utils" "6.0.16"
 
 "@wdio/repl@6.0.7":
   version "6.0.7"
@@ -497,6 +528,13 @@
   dependencies:
     "@wdio/logger" "6.0.7"
     fibers "^4.0.1"
+
+"@wdio/utils@6.0.16":
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-6.0.16.tgz#7ed1d90e7e16c7f5bf591c621fe66e7726bebc54"
+  integrity sha512-Nbg2HEh/wbMvYnBA12CLvdGBAQfEEsOmqi1TvPNND0cZXIITwbgKzw8cP7tlBgDt7JsQZ9WCupGXt+XbjC9aVg==
+  dependencies:
+    "@wdio/logger" "6.0.16"
 
 "@wdio/utils@6.0.7":
   version "6.0.7"
@@ -1023,6 +1061,14 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+chalk@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"
+  integrity sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
 chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
@@ -1073,6 +1119,17 @@ chrome-launcher@^0.11.1:
     lighthouse-logger "^1.0.0"
     mkdirp "0.5.1"
     rimraf "^2.6.1"
+
+chrome-launcher@^0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/chrome-launcher/-/chrome-launcher-0.13.1.tgz#cd5ed4952b630b9fccf2037b211cba81e5aae044"
+  integrity sha512-q8UiCNAknw6kCUvCVBTAEw1BwT0vaxabCrSjN3B/NWohp12YBD9+DalymYElSoKRD4KpVSu4CCl0us4v/J81Sg==
+  dependencies:
+    "@types/node" "*"
+    is-wsl "^2.1.0"
+    lighthouse-logger "^1.0.0"
+    mkdirp "^0.5.3"
+    rimraf "^3.0.2"
 
 ci-info@^2.0.0:
   version "2.0.0"
@@ -1392,6 +1449,20 @@ detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
+
+devtools@6.0.16:
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/devtools/-/devtools-6.0.16.tgz#6ee818703907e24fe394b83897b3049187be4efc"
+  integrity sha512-P05M7iI5MAQAM/SmwWNC0ifwvvJmCZtd5GJcaeHxKcA4dJuXjWTmy0HkOjQGZPJjDQamlE9RRyskjHjUfE+Vtg==
+  dependencies:
+    "@wdio/config" "6.0.16"
+    "@wdio/logger" "6.0.16"
+    "@wdio/protocols" "6.0.12"
+    "@wdio/utils" "6.0.16"
+    chrome-launcher "^0.13.1"
+    puppeteer-core "^2.1.1"
+    ua-parser-js "^0.7.21"
+    uuid "^7.0.2"
 
 devtools@6.0.7:
   version "6.0.7"
@@ -2859,6 +2930,13 @@ mkdirp@^0.5.1, mkdirp@^0.5.4:
   dependencies:
     minimist "^1.2.5"
 
+mkdirp@^0.5.3:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
+  integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
+  dependencies:
+    minimist "^1.2.5"
+
 mocha@^7.0.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/mocha/-/mocha-7.1.1.tgz#89fbb30d09429845b1bb893a830bf5771049a441"
@@ -3502,6 +3580,13 @@ rimraf@^2.6.1:
   dependencies:
     glob "^7.1.3"
 
+rimraf@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
+  integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
+  dependencies:
+    glob "^7.1.3"
+
 rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
@@ -4116,6 +4201,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+ua-parser-js@^0.7.21:
+  version "0.7.21"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
+  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
+
 union-value@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/union-value/-/union-value-1.0.1.tgz#0b6fe7b835aecda61c6ea4d4f02c14221e109847"
@@ -4214,6 +4304,18 @@ wcwidth@>=1.0.1:
   dependencies:
     defaults "^1.0.3"
 
+webdriver@6.0.18:
+  version "6.0.18"
+  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.0.18.tgz#da3a803d37c2938855bb8c476ae2acbe8855fc2a"
+  integrity sha512-G3iSeIpJ9K1dt1KbwnRhv8NpuGs4Vd1rnBQxMgQSNMsrvvNh7qma4AGkAFgIAocYb7dgzqv77odla+FuLnhEJQ==
+  dependencies:
+    "@wdio/config" "6.0.16"
+    "@wdio/logger" "6.0.16"
+    "@wdio/protocols" "6.0.12"
+    "@wdio/utils" "6.0.16"
+    got "^10.7.0"
+    lodash.merge "^4.6.1"
+
 webdriver@6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.0.7.tgz#79584315e5ca512fe73c554e9206b7b709a25389"
@@ -4226,7 +4328,7 @@ webdriver@6.0.7:
     got "^10.7.0"
     lodash.merge "^4.6.1"
 
-webdriverio@6.0.7, webdriverio@^6.0.5:
+webdriverio@6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.0.7.tgz#2b98ac129346f60f0e22defaba55892ffd36dc39"
   integrity sha512-DYajjCT2GySmanJp1mosgsF+Zueeerh3bvpA2r9HnhpdBmcFG+RfyePlrvpyJ0Rh9odsEQtsbXTtJAotbX9fnA==
@@ -4247,6 +4349,28 @@ webdriverio@6.0.7, webdriverio@^6.0.5:
     rgb2hex "^0.1.0"
     serialize-error "^6.0.0"
     webdriver "6.0.7"
+
+webdriverio@^6.0.18:
+  version "6.0.18"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.0.18.tgz#a688ddca528538cb9137836d979fab9dc4b5f209"
+  integrity sha512-S8gRby836/Rbqyeeg6IWOSUMBTMG5mc+XAWII/0QI+MHr9hX/kD0zW23VR3n1oKiXj8FR3duHRdCqvQrt4ntwA==
+  dependencies:
+    "@wdio/config" "6.0.16"
+    "@wdio/logger" "6.0.16"
+    "@wdio/repl" "6.0.16"
+    "@wdio/utils" "6.0.16"
+    archiver "^3.0.0"
+    css-value "^0.0.1"
+    devtools "6.0.16"
+    grapheme-splitter "^1.0.2"
+    lodash.clonedeep "^4.5.0"
+    lodash.isobject "^3.0.2"
+    lodash.isplainobject "^4.0.6"
+    lodash.zip "^4.2.0"
+    resq "^1.6.0"
+    rgb2hex "^0.1.0"
+    serialize-error "^6.0.0"
+    webdriver "6.0.18"
 
 which-module@^2.0.0:
   version "2.0.0"
