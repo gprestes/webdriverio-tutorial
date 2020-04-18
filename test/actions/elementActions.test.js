@@ -1,4 +1,4 @@
-const internetPage = require("../pages/internet.page")
+const internetPage = require("../../pages/internet.page")
 
 describe('Test Element Action', function () {
     it('should click element', () => {
