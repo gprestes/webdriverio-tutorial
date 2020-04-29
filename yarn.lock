@@ -406,12 +406,12 @@
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
-"@wdio/dot-reporter@^6.0.16":
-  version "6.0.16"
-  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-6.0.16.tgz#773d20a5d15c48aa8f76f175f0c155a74c055f89"
-  integrity sha512-R4HiQEIMw6IyX3VExz8azLNAdIXaSI9AeDe7a2DqnsvZf8eojBUtV0fnox/exwi0aMXsCjtIlzbOs0YJDbYVMw==
+"@wdio/dot-reporter@^6.1.5":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-6.1.5.tgz#3e4f1c49e4d6eb4596534cb3138c3b76d86696b5"
+  integrity sha512-gxQPW7KnSfvtGZcVyHGfl8DTlohN6Rl3+yZSk8zm+i/MaxkuVaerb2Yb3eU6zfMocXfb3mweg9vKGCZGJ4LFVA==
   dependencies:
-    "@wdio/reporter" "6.0.14"
+    "@wdio/reporter" "6.1.5"
     chalk "^4.0.0"
 
 "@wdio/local-runner@^6.1.1":
@@ -467,6 +467,13 @@
   version "6.0.14"
   resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-6.0.14.tgz#fda804b0596896d99a00fa57c830f2ea20b03b7b"
   integrity sha512-GcdnH8iY5kHfI5eW5ri0UyFGrgXbYgoHeX8My9uzU/H/k0zPjjhXEzUS6KoJiaTVxsaIl7we6WYou31moBFkPA==
+  dependencies:
+    fs-extra "^9.0.0"
+
+"@wdio/reporter@6.1.5":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-6.1.5.tgz#382b94e158ce0f3dae1b337182df2f64dbef2581"
+  integrity sha512-rLnXYkY0ffCqCO9qx33K4cA0zzURJgF279Qmb6eU7OzgTPBVaGmYvB5SNrWmW7k49aw933HYYHBy5xIRMAyihw==
   dependencies:
     fs-extra "^9.0.0"
 
