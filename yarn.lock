@@ -435,13 +435,14 @@
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^6.0.0"
 
-"@wdio/mocha-framework@^6.0.16":
-  version "6.0.16"
-  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-6.0.16.tgz#8393756e01ee437ded77da3b6ba84a6f54d65c18"
-  integrity sha512-yAQNJ/VsreZZloWtz8K67T93RM2C8C5+JljIjIzqre66DiU9GzDNpIiPvRHUnXXjoFaPnLVZQuRuC9NcAA3Qcg==
+"@wdio/mocha-framework@^6.1.6":
+  version "6.1.6"
+  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-6.1.6.tgz#75cd956cd4fb2289c8285de8de958e87e1e2eb6b"
+  integrity sha512-DWMBxogR90RI2EqbBW6DN1v6V+5sjlPAd0XoPCaoKlg6Tcn3OGp580SrVvIOCzJYgsKzVmChX8hJenWPoUVcyg==
   dependencies:
     "@wdio/logger" "6.0.16"
-    "@wdio/utils" "6.0.16"
+    "@wdio/utils" "6.1.0"
+    expect-webdriverio "^1.1.5"
     mocha "^7.0.1"
 
 "@wdio/protocols@6.0.12":
@@ -1591,10 +1592,10 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-expect-webdriverio@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/expect-webdriverio/-/expect-webdriverio-1.0.0.tgz#ebcdd4f02551d5e877184cf690b69c819da9b315"
-  integrity sha512-lvhG+evyOqt9jO9tDn/ZnTrTJO6Wig8CPL4d705y/QQW2RtwL7RnLGu0yMbQCH7YTDSI8xJIjzwLrKoQxL0PMA==
+expect-webdriverio@^1.0.0, expect-webdriverio@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/expect-webdriverio/-/expect-webdriverio-1.1.5.tgz#acf834eeb2cf03d575d4f9f07fbd4b988ed37261"
+  integrity sha512-+RL4Lkne+/z+o1G5Y0S5QuEXeICxt4jExhBSM2Jn/mrDwb+PZVKPM2Yd1OzLsKeCdQLtw4Oft6514Gp5GLgdZA==
   dependencies:
     expect "^25.2.1"
     jest-matcher-utils "^25.1.0"
