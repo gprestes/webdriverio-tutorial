@@ -9,7 +9,7 @@
   "license": "MIT",
   "devDependencies": {
     "@wdio/dot-reporter": "^6.0.16",
-    "@wdio/local-runner": "^6.1.1",
+    "@wdio/local-runner": "^6.1.6",
     "@wdio/mocha-framework": "^6.0.16",
     "@wdio/selenium-standalone-service": "^6.0.16",
     "@wdio/spec-reporter": "^6.0.16",
