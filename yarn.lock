@@ -470,6 +470,13 @@
   dependencies:
     fs-extra "^9.0.0"
 
+"@wdio/reporter@6.1.9":
+  version "6.1.9"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-6.1.9.tgz#a5f21cc393be3ab71b031b2bdf4fbdaef276adff"
+  integrity sha512-3eQ8VcloL27Ev27EQIGS/BlmRrAeSu/e7ZHbQ3SN6E8eDpbJ7UZauO5mh+XqAq7a2LF8Sd5PMLnJ3RKlGtw+kA==
+  dependencies:
+    fs-extra "^9.0.0"
+
 "@wdio/runner@6.1.1":
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-6.1.1.tgz#cb4ac1b1932c0eeec801ca0a5f0ec6458fd72647"
@@ -494,15 +501,15 @@
     fs-extra "^9.0.0"
     selenium-standalone "^6.15.1"
 
-"@wdio/spec-reporter@^6.0.16":
-  version "6.0.16"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-6.0.16.tgz#0cd1edc7bef53b18212d2fb9377b6d1db6477dbe"
-  integrity sha512-0Pe0xlOvZRg96zbz9ge1uwy1FGO2VrkQ2e0zoXjmC90QUfIP/o2liy4XUnlvWBJpUvEDbdRr2vJpaP9FOSAUgQ==
+"@wdio/spec-reporter@^6.1.9":
+  version "6.1.9"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-6.1.9.tgz#9d561a8b3e475f38cc9bb6bc4d9c2d3d61401b1f"
+  integrity sha512-f71FkV5AYhGnZ3aP+FGGGNogyo5QCn4VVz0tfqr7jG7Fk2SsdjoYhKDlLD+fG+R7PwFIwpcVea8zM6NZSIm75g==
   dependencies:
-    "@wdio/reporter" "6.0.14"
+    "@wdio/reporter" "6.1.9"
     chalk "^4.0.0"
     easy-table "^1.1.1"
-    pretty-ms "^6.0.0"
+    pretty-ms "^7.0.0"
 
 "@wdio/sync@^6.0.18":
   version "6.0.18"
@@ -3321,10 +3328,10 @@ pretty-format@^25.2.3:
     ansi-styles "^4.0.0"
     react-is "^16.12.0"
 
-pretty-ms@^6.0.0:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-6.0.1.tgz#03ec6cfee20329f142645e63efad96bb775d3da4"
-  integrity sha512-ke4njoVmlotekHlHyCZ3wI/c5AMT8peuHs8rKJqekj/oR5G8lND2dVpicFlUz5cbZgE290vvkMuDwfj/OcW1kw==
+pretty-ms@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-7.0.0.tgz#45781273110caf35f55cab21a8a9bd403a233dc0"
+  integrity sha512-J3aPWiC5e9ZeZFuSeBraGxSkGMOvulSWsxDByOcbD1Pr75YL3LSNIKIb52WXbCLE1sS5s4inBBbryjF4Y05Ceg==
   dependencies:
     parse-ms "^2.1.0"
 
