@@ -201,10 +201,10 @@
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
 
-"@wdio/sync@^6.0.18":
-  version "6.0.18"
-  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-6.0.18.tgz#55f8e76f0ebb9e2951514df06df57967d9420238"
-  integrity sha512-FRKgLl8xgsBBzbmzKQucF+Q1XOHXuuV6oY2l7APe252TJu9XXT4bJPB0Punp9VnqHSGwJR97lbNk/cgOfzAd8g==
+"@wdio/sync@^6.1.14":
+  version "6.1.14"
+  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-6.1.14.tgz#8c60564cc05aff455a11f360e817e309d4d154b6"
+  integrity sha512-94K0kQdrOU0aMlJ2Xsd4tWr4tPpmCFp612Ml5+ecQh4C4XD07ocfsvGs+mwI7cfF1sO6g/Hoc+XTY2D+/8En3w==
   dependencies:
     "@wdio/logger" "6.0.16"
     fibers "^4.0.1"
