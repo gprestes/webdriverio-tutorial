@@ -20,6 +20,6 @@
     "webdriverio": "^6.0.18"
   },
   "dependencies": {
-    "@wdio/cli": "^6.1.11"
+    "@wdio/cli": "^6.1.19"
   }
 }
