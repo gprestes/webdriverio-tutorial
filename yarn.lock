@@ -181,10 +181,10 @@
     webdriver "6.1.11"
     webdriverio "6.1.12"
 
-"@wdio/selenium-standalone-service@^6.0.16":
-  version "6.0.16"
-  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-6.0.16.tgz#1cd69d86031b3c8abc4ab709801d38ee87f7c9c0"
-  integrity sha512-xYGyqEGZLKltOIknx1oOJeCPOqrTj9Hd8cEUQHUIn+T9LK6WASxidYClDJHNYKS7wwp7BYZc1Zlqn2dRabTb6Q==
+"@wdio/selenium-standalone-service@^6.1.14":
+  version "6.1.14"
+  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-6.1.14.tgz#6f33dcbc4b93167f90182aaa50d8eecf72e01b1d"
+  integrity sha512-gZZS+UU9FaiqEqldnptCwaJ6IBVS8JtNZf5UHig/1vAniCL0P0PTtSeaIBw5oFBxB2cwec9BQIYK2PBuujE5hA==
   dependencies:
     "@types/selenium-standalone" "^6.15.0"
     "@wdio/logger" "6.0.16"
