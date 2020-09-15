@@ -299,13 +299,13 @@
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
 
-"@wdio/sync@6.4.6":
-  version "6.4.6"
-  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-6.4.6.tgz#49849771767259468e09a41a1f35f31f38456012"
-  integrity sha512-Hz9zZ6dXsjPGaEga9wUd6I6g7p6GM2zlF++5dH1rlvNlCLluuYQ8KK9ugD67zjsayLCw4uLhPYSOYSPPh1PEow==
+"@wdio/sync@6.5.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-6.5.0.tgz#c1189df75dbd19d4aea9efe795fcc21b0b28fde8"
+  integrity sha512-VRVcfuaTo0BHNEfjzFmxIsbAFUPrZwNcnwJ1gyUi1lXaiYOvu0g6Uvy2gOJ75v+oZjcalY69T+AmcIuIWNSPbA==
   dependencies:
     "@types/puppeteer" "^3.0.1"
-    "@wdio/logger" "6.0.16"
+    "@wdio/logger" "6.4.7"
     fibers "^4.0.1"
 
 "@wdio/utils@6.4.0":
