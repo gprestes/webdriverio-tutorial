@@ -142,14 +142,14 @@
   dependencies:
     "@types/node" "*"
 
-"@wdio/cli@6.4.6":
-  version "6.4.6"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.4.6.tgz#1f39b189f461cfa0d37b7ca1058669e5c9022af7"
-  integrity sha512-j3IRcYXLo0vxy8OKuamjaED0xYOuMk+9fjITjYL1yjS04gjP2IvAHwnhwEGVci73ewyxkGYD0dA2m0G0Dq8Ydw==
+"@wdio/cli@6.5.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.5.0.tgz#7cee4d06596da382939279a4e4082ee421076159"
+  integrity sha512-YLI/snA4EMfVNDqu3dHP6RYriBBDSLx6VlPW58mc+pxsCA5jryeM/0ZjoyYyDT73oj+stcQLthBD6AOODRYoKw==
   dependencies:
-    "@wdio/config" "6.4.6"
-    "@wdio/logger" "6.0.16"
-    "@wdio/utils" "6.4.0"
+    "@wdio/config" "6.4.7"
+    "@wdio/logger" "6.4.7"
+    "@wdio/utils" "6.5.0"
     async-exit-hook "^2.0.1"
     chalk "^4.0.0"
     chokidar "^3.0.0"
@@ -162,7 +162,7 @@
     lodash.union "^4.6.0"
     mkdirp "^1.0.4"
     recursive-readdir "^2.2.2"
-    webdriverio "6.4.6"
+    webdriverio "6.5.0"
     yargs "^15.0.1"
     yarn-install "^1.0.0"
 
