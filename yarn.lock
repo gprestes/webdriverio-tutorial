@@ -184,12 +184,12 @@
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
-"@wdio/dot-reporter@6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-6.4.0.tgz#690fff5a9295b61720debcc5510fbd72dfd2ed42"
-  integrity sha512-Iv6PBQSQ5Ep78Vv2UYXcQVBW4oH6cxYTelLon4MnS9Hl1x8Z67KrOdT0HNxdgNYfh/bpxX820Rx70h4ZWqgD0g==
+"@wdio/dot-reporter@6.4.7":
+  version "6.4.7"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-6.4.7.tgz#bf313bd79b30a725a05e6ebbc0367975003e4ae2"
+  integrity sha512-OXr1mXjEK7pzLbLew7uH/2B3tNklN76Rrkzef+rRCW6s+t8R1yOtkVuhF8W0T3RNLIKOE9XixrbKkaghCZvefQ==
   dependencies:
-    "@wdio/reporter" "6.3.6"
+    "@wdio/reporter" "6.4.7"
     chalk "^4.0.0"
 
 "@wdio/local-runner@6.5.0":
