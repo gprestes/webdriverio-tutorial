@@ -204,6 +204,16 @@
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^6.0.0"
 
+"@wdio/logger@6.6.0":
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.6.0.tgz#69375d6cf373ee8e7db7cd05085e6a325fccfdf7"
+  integrity sha512-BAvXcnlWdQC93MLWObetpcjHUEGR8niW2mH2KAwLPQhXwJkKxXjhlMKH/DmUn5uQ4/S7iySLlMq9EEEg9KuCwA==
+  dependencies:
+    chalk "^4.0.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.8.4"
+    strip-ansi "^6.0.0"
+
 "@wdio/mocha-framework@6.5.0":
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-6.5.0.tgz#d401ad4e31a967ce3497b2559d474b61a9df77bf"
@@ -246,13 +256,13 @@
     webdriver "6.5.0"
     webdriverio "6.5.2"
 
-"@wdio/selenium-standalone-service@6.4.7":
-  version "6.4.7"
-  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-6.4.7.tgz#68801d7b384dacd33556cdd313fc83ea6bea09ac"
-  integrity sha512-OO7R+QMYwS8GNJzhiB63FISMreyu8Dw+7B880mhCPlBW/KYMBpNzG6YzPFAOq4ujVqJAw+XrtZq0MF9zLkDHVQ==
+"@wdio/selenium-standalone-service@6.6.0":
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-6.6.0.tgz#8717abf6bc7719617d47ca0b2058c3ff6447f4c4"
+  integrity sha512-kpNQWMXT47UBcqdyNdiR9DNYLHaSRojEoFXuwpmh5g2h16NYJcx9rwnkMzP8Uj158dWI9NVOR+NSOYqWxjxklw==
   dependencies:
     "@types/selenium-standalone" "^6.15.0"
-    "@wdio/logger" "6.4.7"
+    "@wdio/logger" "6.6.0"
     fs-extra "^9.0.0"
     selenium-standalone "^6.15.1"
 
