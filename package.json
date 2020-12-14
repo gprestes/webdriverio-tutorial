@@ -13,7 +13,7 @@
     "@wdio/mocha-framework": "6.7.0",
     "@wdio/selenium-standalone-service": "6.7.3",
     "@wdio/spec-reporter": "6.7.0",
-    "@wdio/sync": "6.7.0",
+    "@wdio/sync": "6.10.10",
     "chai": "4.2.0",
     "chai-webdriverio": "1.0.0",
     "local-runner": "0.1.1-alpha",
