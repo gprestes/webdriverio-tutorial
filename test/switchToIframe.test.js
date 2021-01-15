@@ -1,7 +1,7 @@
 const internetPage = require('../pages/internet.page')
 
 describe('switch to Iframe', function () {
-    it('should switch to iframe', () => {
+    xit('should switch to iframe', () => {
         browser.url(`${browser.options.baseUrl}/iframe`)
         internetPage.h3Header.waitForDisplayed()
         internetPage.iframe.waitForDisplayed()
