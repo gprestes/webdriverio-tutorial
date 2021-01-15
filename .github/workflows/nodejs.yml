@@ -24,15 +24,16 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - uses: nanasess/setup-chromedriver@master
+    - uses: nanasess/setup-chromedriver@v1.0.3
     - run: |
         export DISPLAY=:99
         chromedriver --url-base=/wd/hub &
         sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
     - run: yarn
-    - run: ENV=qa npm test
+    - run: npm test
       env:
         CI: true
+        ENV: qa
     - uses: ahmadnassri/action-dependabot-auto-merge@v2.3.0
       if: github.event_name == 'pull_request' && github.actor == 'dependabot[bot]'
       with:
