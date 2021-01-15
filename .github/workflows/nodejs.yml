@@ -34,3 +34,7 @@ jobs:
       env:
         CI: true
         ENV: qa
+    - uses: ahmadnassri/action-dependabot-auto-merge@v2.3.0
+      if: github.event_name == 'pull_request' && github.actor == 'dependabot[bot]'
+      with:
+        github-token: ${{ secrets.AUTO_MERGE }}
