@@ -20,6 +20,6 @@
     "webdriverio": "6.7.2"
   },
   "dependencies": {
-    "@wdio/cli": "6.7.2"
+    "@wdio/cli": "6.12.0"
   }
 }
