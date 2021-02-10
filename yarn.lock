@@ -342,12 +342,13 @@
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
-"@wdio/config@6.7.3":
-  version "6.7.3"
-  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-6.7.3.tgz#babbaf42d12f6eae976ce5056ac5eca9bb58f187"
-  integrity sha512-7+RrhbIkTiCwKxFOKxk/SfZNxBppF4iXpnI/IiIFnXbYMf4tcizB3mdhQObECdHvA2aH4Uv9TJ3u+yhxe7WDZw==
+"@wdio/config@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-7.0.0.tgz#24b685a16ad613e86108a1977ac6249dc42a9e33"
+  integrity sha512-sSPvWVXTsOLTPP89r5jg/VDkU+dE1IRJI5i8Nwv6UvonqdVM+wGjBD63fnr5B1uhha0wcKJwuntngf1o+QXwig==
   dependencies:
-    "@wdio/logger" "6.7.3"
+    "@wdio/logger" "7.0.0"
+    "@wdio/types" "7.0.0"
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
@@ -392,10 +393,10 @@
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^6.0.0"
 
-"@wdio/logger@6.7.3":
-  version "6.7.3"
-  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.7.3.tgz#d8b2c2d51e3413b3c9536e679bbd0f4dfbfc1f3f"
-  integrity sha512-wBQ7KXHWXDRKHQUqoR68mpcailW2xeH2LiWrYZh7jdyuN2DaYdxKW1RAuXbalJ9c9zEbQmwmGTGIOUELiCB8Ug==
+"@wdio/logger@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-7.0.0.tgz#d2e7a595b3daf1285da29571cc0fd7cfcc3c1a68"
+  integrity sha512-P3inCmtc0ms1vnx3v25+U6ccD2dkiuBhaJwmIWPwSbQn8cNQ5AcQIbRWMbnzFHbJ/jSrVBnlwmUArW7L02Zpeg==
   dependencies:
     chalk "^4.0.0"
     loglevel "^1.6.0"
@@ -458,17 +459,18 @@
     webdriver "6.7.1"
     webdriverio "6.7.2"
 
-"@wdio/selenium-standalone-service@6.7.3":
-  version "6.7.3"
-  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-6.7.3.tgz#10cf6ec69f9cdd02aa738858de0868e01d1b3d3c"
-  integrity sha512-cicUeg0Yd4TWOcM9B9ue8GRCYjVNyY/Z4Oev8NTKHc4rMN8iCsSmrzOCvTsn+/bcwkFPi8SrI2rBNb39Q1bE1g==
+"@wdio/selenium-standalone-service@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-7.0.0.tgz#c1640ca84ec08f49fdf4e482f1efd8341855ff71"
+  integrity sha512-9xylCu8V8eeXtyHwG5zfa7nWRowqRDZ85ZTr7PCJlEkewCi03O89zXmZkImCpMYJuuBtYZFHzZ3sQvtzX9JVog==
   dependencies:
     "@types/fs-extra" "^9.0.1"
     "@types/selenium-standalone" "^6.15.2"
-    "@wdio/config" "6.7.3"
-    "@wdio/logger" "6.7.3"
+    "@wdio/config" "7.0.0"
+    "@wdio/logger" "7.0.0"
+    "@wdio/types" "7.0.0"
     fs-extra "^9.0.1"
-    selenium-standalone "^6.20.1"
+    selenium-standalone "^6.22.1"
 
 "@wdio/spec-reporter@7.0.0":
   version "7.0.0"
@@ -2580,7 +2582,7 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-selenium-standalone@^6.20.1:
+selenium-standalone@^6.22.1:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/selenium-standalone/-/selenium-standalone-6.23.0.tgz#91a7d12b1c8ba077a82b44323445c5882eb20ff1"
   integrity sha512-6dVLSEvbixd/MRSEmrcRQD8dmABrzNsxRqroKFQY+RVzm1JVPgGHIlo6qJzG6akfjc2V8SadHslE6lN4BFVM3w==
