@@ -346,12 +346,13 @@
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
-"@wdio/dot-reporter@6.11.0":
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-6.11.0.tgz#e2c6b573c6209df2177e6568cb25d07e004cab5d"
-  integrity sha512-0EmRTVazuNXrn4YVhhJ39brSUlsRg+WE22MSU1cNO1xif011C6MKE7ZS5HbS528uSY0dEFYxApyQJ/4TM4bhqQ==
+"@wdio/dot-reporter@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.0.0.tgz#874ce85f3f89dc01da83a9b42ac20419bb0d03a4"
+  integrity sha512-2AA1mzqZPiYyeFx6As4mXCJBZwtxpQXsW96U5kfCxUTCVeJuT+4a1qQ3I++oVACWiAdTzXJhtVoDRBasnxng+w==
   dependencies:
-    "@wdio/reporter" "6.11.0"
+    "@wdio/reporter" "7.0.0"
+    "@wdio/types" "7.0.0"
     chalk "^4.0.0"
 
 "@wdio/local-runner@6.7.2":
@@ -438,6 +439,15 @@
     "@types/cucumber" "^6.0.1"
     fs-extra "^9.0.0"
 
+"@wdio/reporter@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.0.0.tgz#b545cb1d2bf7438e4687006be7daf4e7d92d8308"
+  integrity sha512-uJBh3VDoAkh8whukWgi1GHVlem0p3HoT8oryQxvx1VLr5Kf+CJamxpsluUrs8C+aZ0Q4dL/UlzN3g5wVZGBffA==
+  dependencies:
+    "@types/cucumber" "^6.0.1"
+    "@wdio/types" "7.0.0"
+    fs-extra "^9.0.0"
+
 "@wdio/runner@6.7.2":
   version "6.7.2"
   resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-6.7.2.tgz#a74ebb39883f56de737947f6989bdb06a0081ce7"
@@ -481,6 +491,13 @@
     "@types/puppeteer" "^3.0.1"
     "@wdio/logger" "6.6.0"
     fibers "^4.0.1"
+
+"@wdio/types@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.0.0.tgz#cb21b3894fffa44e5fa7379e31e19506d2ba00b7"
+  integrity sha512-DhNmKKF26MIjlUndmH5IsnnmxZEpGQvOpTsANPagadO0D8KePUoItG9Jxx3enxQ7f3YDQuRSXh/thDkp3nJujg==
+  dependencies:
+    got "^11.8.1"
 
 "@wdio/utils@6.11.0":
   version "6.11.0"
@@ -1444,7 +1461,7 @@ globule@^1.0.0:
     lodash "~4.17.10"
     minimatch "~3.0.2"
 
-got@^11.0.2, got@^11.8.0:
+got@^11.0.2, got@^11.8.0, got@^11.8.1:
   version "11.8.1"
   resolved "https://registry.yarnpkg.com/got/-/got-11.8.1.tgz#df04adfaf2e782babb3daabc79139feec2f7e85d"
   integrity sha512-9aYdZL+6nHmvJwHALLwKSUZ0hMwGaJGYv3hoPLPgnT8BoBXm1SjnZeky+91tfwJaDzun2s4RsBRy48IEYv2q2Q==
