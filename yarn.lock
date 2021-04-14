@@ -189,6 +189,11 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
+"@types/mocha@^8.0.0":
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-8.2.2.tgz#91daa226eb8c2ff261e6a8cbf8c7304641e095e0"
+  integrity sha512-Lwh0lzzqT5Pqh6z61P3c3P5nm6fzQK/MMHl9UKeneAeInVflBSz1O2EkX6gM6xfJd7FBXBY5purtLx7fUiZ7Hw==
+
 "@types/node@*":
   version "14.14.21"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.21.tgz#d934aacc22424fe9622ebf6857370c052eae464e"
@@ -403,14 +408,26 @@
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^6.0.0"
 
-"@wdio/mocha-framework@6.7.0":
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-6.7.0.tgz#9a8fdb81b9b75bcf4916deb45a3dc9fd154acb95"
-  integrity sha512-LfxbDb7qy8E2mzdySSMWq4OI17HTv7qYRV5RFAcR+DhyHWWDxQ0fNiJAr5j3+KFYAnDhfFdxaKxwEE3F8Q4M3g==
+"@wdio/logger@7.4.2":
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-7.4.2.tgz#f1c8b624751da2c5462f855071e7205131339a7e"
+  integrity sha512-vYH0glKyw/rIJ/FJ4g+WQfx6MRKnWEPUspejv5Vit32STKa1IPotw/Y/Axv2qy6os1VHAs9CfH43930q9QZLkA==
   dependencies:
-    "@wdio/logger" "6.6.0"
-    "@wdio/utils" "6.7.0"
-    expect-webdriverio "^1.1.5"
+    chalk "^4.0.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.8.4"
+    strip-ansi "^6.0.0"
+
+"@wdio/mocha-framework@7.4.2":
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-7.4.2.tgz#68b3210877b5a2021aea82f3ece5da2600b227ac"
+  integrity sha512-/JpTQb+JrKcx0r8wGazUGViNYM/RF+Cgg5jra73O0c6EShi+juVs8MdL9h4gV7PhKJ19byn3Gq1Fpl/R4wfjIw==
+  dependencies:
+    "@types/mocha" "^8.0.0"
+    "@wdio/logger" "7.4.2"
+    "@wdio/types" "7.4.2"
+    "@wdio/utils" "7.4.2"
+    expect-webdriverio "^2.0.0"
     mocha "^8.0.1"
 
 "@wdio/protocols@6.12.0":
@@ -500,6 +517,13 @@
   dependencies:
     got "^11.8.1"
 
+"@wdio/types@7.4.2":
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.4.2.tgz#1fe5911f2bf9c4b381cbfc7cb664fdd0a576b381"
+  integrity sha512-LLSaeC8yCMlQdB75J2TFEE/NAKb7vRCbLAXQmqBm6THNJll1U/Mk9tHIaUK624Eqf5qGBwQ0UKRKnx8qevzPUA==
+  dependencies:
+    got "^11.8.1"
+
 "@wdio/utils@6.11.0":
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-6.11.0.tgz#878c2500efb1a325bf5a66d2ff3d08162f976e8c"
@@ -513,6 +537,14 @@
   integrity sha512-YhbExE89Ya5d1XIh4QIOuU1UjG30fB7iiFGgldu9ZfdUusIgjTwL4vMHhK30e+5+jdqzV6jMkTAf5a6OvH+02g==
   dependencies:
     "@wdio/logger" "6.6.0"
+
+"@wdio/utils@7.4.2":
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-7.4.2.tgz#f620f44a79af8e1ce45a688e546d23cf49660666"
+  integrity sha512-74BQbH4nxW8HfLBs/VBtNKHh+zcYHB+kvgrjQfy8XxGpxXmgVAKwI9kURTjJ3W4ZoeHgnW1OxIcmemU4w5zxAw==
+  dependencies:
+    "@wdio/logger" "7.4.2"
+    "@wdio/types" "7.4.2"
 
 accept@2.x.x:
   version "2.1.4"
@@ -1254,15 +1286,15 @@ exit-on-epipe@~1.0.1:
   resolved "https://registry.yarnpkg.com/exit-on-epipe/-/exit-on-epipe-1.0.1.tgz#0bdd92e87d5285d267daa8171d0eb06159689692"
   integrity sha512-h2z5mrROTxce56S+pnvAV890uu7ls7f1kEvVGJbw1OlFH3/mlJ5bkXu0KRyW94v37zzHPiUd55iLn3DA7TjWpw==
 
-expect-webdriverio@^1.1.5:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/expect-webdriverio/-/expect-webdriverio-1.4.1.tgz#c44152a2f69501e5f00bfa6c6cf715be3b28fc5a"
-  integrity sha512-b7UGC2Ye0uKTM0giLhqVJvBuVkboxO24YQT6tRkYS6Y54TM+VMjrfNiCOYDnC2JtFwr/c2s0tfMwBD0saZ8kFA==
+expect-webdriverio@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/expect-webdriverio/-/expect-webdriverio-2.0.1.tgz#08193c02d78037d68672a86535363df472e559fc"
+  integrity sha512-ocBCP9tiEC2fA31It1TZO+Z+d0hszx+pYI48XH6dvi6vSVM3NNIk52VBQbuw4aWwg7FMX06M0W0hIF7E5vGZjw==
   dependencies:
-    expect "^26.5.3"
-    jest-matcher-utils "^26.5.2"
+    expect "^26.6.2"
+    jest-matcher-utils "^26.6.2"
 
-expect@^26.5.3:
+expect@^26.6.2:
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/expect/-/expect-26.6.2.tgz#c6b996bf26bf3fe18b67b2d0f51fc981ba934417"
   integrity sha512-9/hlOBkQl2l/PLHJx6JjoDF6xPKcJEsUlWKb23rKE7KzeDqUZKXKNMW27KIue5JMdBV9HgmoJPcc8HtO85t9IA==
@@ -1766,7 +1798,7 @@ jest-get-type@^26.3.0:
   resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-26.3.0.tgz#e97dc3c3f53c2b406ca7afaed4493b1d099199e0"
   integrity sha512-TpfaviN1R2pQWkIihlfEanwOXK0zcxrKEE4MlU6Tn7keoXdN6/3gK/xl0yEh8DOunn5pOVGKf8hB4R9gVh04ig==
 
-jest-matcher-utils@^26.5.2, jest-matcher-utils@^26.6.2:
+jest-matcher-utils@^26.6.2:
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/jest-matcher-utils/-/jest-matcher-utils-26.6.2.tgz#8e6fd6e863c8b2d31ac6472eeb237bc595e53e7a"
   integrity sha512-llnc8vQgYcNqDrqRDXWwMr9i7rS5XFiCwvh6DTP7Jqa2mqpcCBBlpCbn+trkG0KNhPu/h8rzyBkriOtBstvWhw==
