@@ -9,7 +9,7 @@ describe('Javascript Alerts', function () {
 
     it('should accept alert', () => {
         browser.acceptAlert()
-        assert.equal('You successfuly clicked an alert', internetPage.getResultText())
+        assert.equal('You successfully clicked an alert', internetPage.getResultText())
     })
 
     it('should dismiss alert', () => {
