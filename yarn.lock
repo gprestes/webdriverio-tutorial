@@ -296,6 +296,16 @@
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
+"@wdio/config@7.7.0":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-7.7.0.tgz#126e5f6619efaf753150f785b397a7676e4b2cb4"
+  integrity sha512-Brb+s/PMBbsVyzEBN145AXnEPlNa8m8PAEBZEb9ozrXvnDEzSV5Wem4TpM8jTTKuQi5eE05j8ODpMPnq6ecQSg==
+  dependencies:
+    "@wdio/logger" "7.7.0"
+    "@wdio/types" "7.7.0"
+    deepmerge "^4.0.0"
+    glob "^7.1.2"
+
 "@wdio/dot-reporter@7.6.0":
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.6.0.tgz#b188fc2fb7d386a396339807209ed03af855d326"
@@ -323,6 +333,16 @@
   version "7.5.3"
   resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-7.5.3.tgz#50f81cf20b0cfbcbf1ab55d9a4c13d8e1129684e"
   integrity sha512-r9EADpm0ncS1bDQSWi/nhF9C59/WNLbdAAFlo782E9ItFCpDhNit3aQP9vETv1vFxJRjUIM8Fw/HW8zwPadkbw==
+  dependencies:
+    chalk "^4.0.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.8.4"
+    strip-ansi "^6.0.0"
+
+"@wdio/logger@7.7.0":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-7.7.0.tgz#cac834008b7570f3b6ae30ed731545618c51da40"
+  integrity sha512-XX/OkC8NlvsBdhKsb9j7ZbuQtF/Vuo0xf38PXdqYtVezOrYbDuba0hPG++g/IGNuAF34ZbSi+49cvz4u5w92kQ==
   dependencies:
     chalk "^4.0.0"
     loglevel "^1.6.0"
@@ -386,17 +406,17 @@
     webdriver "7.6.0"
     webdriverio "7.6.1"
 
-"@wdio/selenium-standalone-service@7.6.0":
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-7.6.0.tgz#528808d2a26525b099f1f4a399f82c04efa4ac72"
-  integrity sha512-B9VbGVCzZpvvrTfQp2bYQVyYcgg4edv/v667F3BfXU5DNS7S/ARfrrSo7sgGMqN9+omHIPLtPXx3nJ4gUWZ8Vg==
+"@wdio/selenium-standalone-service@7.7.0":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-7.7.0.tgz#c1f318c377187801f0dd4c6463f5bf78487b96d5"
+  integrity sha512-O5ODRiCDyQxebcl8z1AZydRfQ63OKMyNUqZi2ErqZTxF6/iXVYRafRupaEekn9RW8/2noehBg1WAGBbhmbi5EQ==
   dependencies:
     "@types/fs-extra" "^9.0.1"
     "@types/node" "^14.14.31"
     "@types/selenium-standalone" "^6.15.2"
-    "@wdio/config" "7.6.0"
-    "@wdio/logger" "7.5.3"
-    "@wdio/types" "7.6.0"
+    "@wdio/config" "7.7.0"
+    "@wdio/logger" "7.7.0"
+    "@wdio/types" "7.7.0"
     fs-extra "^10.0.0"
     selenium-standalone "^6.22.1"
 
