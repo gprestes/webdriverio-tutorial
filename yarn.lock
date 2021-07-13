@@ -178,6 +178,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.1.tgz#5e07e0cb2ff793aa7a1b41deae76221e6166049f"
   integrity sha512-/tpUyFD7meeooTRwl3sYlihx2BrJE7q9XF71EguPFIySj9B7qgnRtHsHTho+0AUm4m1SvWGm6uSncrR94q6Vtw==
 
+"@types/node@^15.12.5":
+  version "15.14.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.14.2.tgz#7af8ab20156586f076f4760bc1b3c5ddfffd1ff2"
+  integrity sha512-dvMUE/m2LbXPwlvVuzCyslTEtQ2ZwuuFClDrOQ6mp2CenCg971719PTILZ4I6bTP27xfFFc+o7x2TkLuun/MPw==
+
 "@types/puppeteer@^5.4.0":
   version "5.4.3"
   resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-5.4.3.tgz#cdca84aa7751d77448d8a477dbfa0af1f11485f2"
@@ -306,13 +311,13 @@
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
-"@wdio/dot-reporter@7.6.0":
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.6.0.tgz#b188fc2fb7d386a396339807209ed03af855d326"
-  integrity sha512-oVHYI0gV7E3mmhRkVkmFcR1LEP0yqaBvXi4XJMLEyIqD++fQcRg6FigtAkhLTNCYxcCAjeAczLnVYuKbT943DQ==
+"@wdio/dot-reporter@7.7.5":
+  version "7.7.5"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.7.5.tgz#be422e36686269bf79ec6273be21e7b09bc49081"
+  integrity sha512-JUYrBUoE6vfCP+xtkJPh2vYm02ssxHTb16O6DUWQbTxpMJUYjDTOtwTIIk4Fgd1xP7yMmZtLvkY9Rc4sNtSdow==
   dependencies:
-    "@wdio/reporter" "7.6.0"
-    "@wdio/types" "7.6.0"
+    "@wdio/reporter" "7.7.5"
+    "@wdio/types" "7.7.5"
     chalk "^4.0.0"
 
 "@wdio/local-runner@7.6.1":
@@ -385,15 +390,6 @@
   dependencies:
     "@wdio/utils" "7.7.3"
 
-"@wdio/reporter@7.6.0":
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.6.0.tgz#4af2b8ed40b9b1395129a3a5198026886b88c613"
-  integrity sha512-fIH1fo80c/6FMjHZUJ13lebplK2S4ZYvvrnfdtn+VSoo5/x5tHYyOCULPULwvMSkL8+sLtLB6u/KpLAyWGquIw==
-  dependencies:
-    "@types/node" "^14.14.31"
-    "@wdio/types" "7.6.0"
-    fs-extra "^10.0.0"
-
 "@wdio/reporter@7.7.0":
   version "7.7.0"
   resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.7.0.tgz#a2a0cb2734613acaeddcbb7ca909aa51843ef5da"
@@ -401,6 +397,15 @@
   dependencies:
     "@types/node" "^14.14.31"
     "@wdio/types" "7.7.0"
+    fs-extra "^10.0.0"
+
+"@wdio/reporter@7.7.5":
+  version "7.7.5"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.7.5.tgz#ede2757c540b490c2d4bd6a4fd073708b2ac96a3"
+  integrity sha512-Et3LZjG/yVow+3HtCIttswjqzn31IR3fGHGdJQ6OtrEFN/NcEvkP5zln/LFLTfaM0IhxjxeerrXSaRJgmkZLfg==
+  dependencies:
+    "@types/node" "^15.12.5"
+    "@wdio/types" "7.7.5"
     fs-extra "^10.0.0"
 
 "@wdio/runner@7.6.1":
@@ -477,6 +482,14 @@
   integrity sha512-ZZBQHCXKjZSQj9pf4df/QhfgQQj0vzm9hkK7YyNM+S+qnW0LExL8qQKLxTlGHDaYxk/+Jrd9pcZrJXRCoSnUaA==
   dependencies:
     "@types/node" "^14.14.31"
+    got "^11.8.1"
+
+"@wdio/types@7.7.5":
+  version "7.7.5"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.7.5.tgz#74122c03a3b5d8a14e437b644f26982c9b418412"
+  integrity sha512-1LwlF/O9ohpnR9k1aVfdDSJ44UqpC6Lk6vk5lXNddlTvFzUV6a+fT6odm22LfMrazBxD2+rtKU43CIDX6kdxCw==
+  dependencies:
+    "@types/node" "^15.12.5"
     got "^11.8.1"
 
 "@wdio/utils@7.6.0":
