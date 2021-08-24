@@ -446,17 +446,25 @@
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
 
-"@wdio/sync@7.10.0":
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.10.0.tgz#9632ae7c95d8c08daa218ebc50de2d4d62ca20df"
-  integrity sha512-SJ74LQc0KNGB3h7SprQrRifRlPxC+ZQmXX1GaZBxC2gL2vxOtL6tIY9JrzcLVdwAdEmmouYYmzrxB85KQ8d2/w==
+"@wdio/sync@7.10.1":
+  version "7.10.1"
+  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.10.1.tgz#7b17a6fcccdc71b7a547009e73f6ccb7989adf2c"
+  integrity sha512-Pk6CmKgWLNiWwaDteWXgxbqNxtAiFaSyf4Rr8CWKyB9+M0PDzDZST7p0e/QKOvC22AVfi8SLCe8O7xgEwvJDgA==
   dependencies:
     "@types/fibers" "^3.1.0"
     "@types/puppeteer" "^5.4.0"
     "@wdio/logger" "7.7.0"
-    "@wdio/types" "7.8.0"
+    "@wdio/types" "7.10.1"
     fibers "^5.0.0"
-    webdriverio "7.10.0"
+    webdriverio "7.10.1"
+
+"@wdio/types@7.10.1":
+  version "7.10.1"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.10.1.tgz#063d43c807cc27cd912b6aa70b241dce285fd1e5"
+  integrity sha512-wEDmdux2VCGO4wWVj7v9UbVRqQG7liHnDVPYJuQURPj3hJMiQQTIHwRi7EmwYfbJ9/mRoHBOGeZt7nSvtcjeaQ==
+  dependencies:
+    "@types/node" "^15.12.5"
+    got "^11.8.1"
 
 "@wdio/types@7.10.1":
   version "7.10.1"
