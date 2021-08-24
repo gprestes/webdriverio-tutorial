@@ -331,16 +331,16 @@
     "@wdio/types" "7.8.0"
     chalk "^4.0.0"
 
-"@wdio/local-runner@7.10.0":
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/@wdio/local-runner/-/local-runner-7.10.0.tgz#ca4243c248a1fd282a2bd70173c394ca12b903f0"
-  integrity sha512-IAdpIAacPsNyjvEBSfrg3w9xMqxXmyOWQWo0cnyyogVrqizjqsi2rOhM9W/9m+tjoQpRvSXvERbB40aFjQDLQQ==
+"@wdio/local-runner@7.10.1":
+  version "7.10.1"
+  resolved "https://registry.yarnpkg.com/@wdio/local-runner/-/local-runner-7.10.1.tgz#4084f5d0604e6130f5cf4e68f61d8d65a2a1bdb6"
+  integrity sha512-evq5ax7Vq/rYs7n/vfc/cgtstZI3sFnZyfKL4KQVXIZDTe93/iChLa6T0GSsIZU8b1qVCWZUSz3DAX+o8Ni+ow==
   dependencies:
     "@types/stream-buffers" "^3.0.3"
     "@wdio/logger" "7.7.0"
-    "@wdio/repl" "7.10.0"
-    "@wdio/runner" "7.10.0"
-    "@wdio/types" "7.8.0"
+    "@wdio/repl" "7.10.1"
+    "@wdio/runner" "7.10.1"
+    "@wdio/types" "7.10.1"
     async-exit-hook "^2.0.1"
     split2 "^3.2.2"
     stream-buffers "^3.0.2"
@@ -406,19 +406,19 @@
     object-inspect "^1.10.3"
     supports-color "8.1.1"
 
-"@wdio/runner@7.10.0":
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-7.10.0.tgz#f9cd3d1c2ecf404cdcdb06c68156ba46181f2ed1"
-  integrity sha512-+TeVWSpK0TVYaDJ6zDocju7dAl3CwHNWahcPKb1iNInbQPZEo3/WiwRGtxdK5C22jLuji5DIVqkyFcx3Z8N5kQ==
+"@wdio/runner@7.10.1":
+  version "7.10.1"
+  resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-7.10.1.tgz#ccbb6d99d0a7dda8cfbb02d7938ad59c8b56d077"
+  integrity sha512-V2uzUg0d7ufwCXhbb9TYMB97THAVqSOL1pt6B74lyeOa4VPz0uCKwf5UsBVCrRBd3FAJqZck+4luDKSVauZ3LQ==
   dependencies:
-    "@wdio/config" "7.8.0"
+    "@wdio/config" "7.10.1"
     "@wdio/logger" "7.7.0"
-    "@wdio/types" "7.8.0"
-    "@wdio/utils" "7.10.0"
+    "@wdio/types" "7.10.1"
+    "@wdio/utils" "7.10.1"
     deepmerge "^4.0.0"
     gaze "^1.1.2"
-    webdriver "7.10.0"
-    webdriverio "7.10.0"
+    webdriver "7.10.1"
+    webdriverio "7.10.1"
 
 "@wdio/selenium-standalone-service@7.10.1":
   version "7.10.1"
@@ -457,14 +457,6 @@
     "@wdio/types" "7.10.1"
     fibers "^5.0.0"
     webdriverio "7.10.1"
-
-"@wdio/types@7.10.1":
-  version "7.10.1"
-  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.10.1.tgz#063d43c807cc27cd912b6aa70b241dce285fd1e5"
-  integrity sha512-wEDmdux2VCGO4wWVj7v9UbVRqQG7liHnDVPYJuQURPj3hJMiQQTIHwRi7EmwYfbJ9/mRoHBOGeZt7nSvtcjeaQ==
-  dependencies:
-    "@types/node" "^15.12.5"
-    got "^11.8.1"
 
 "@wdio/types@7.10.1":
   version "7.10.1"
