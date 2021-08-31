@@ -424,17 +424,17 @@
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
 
-"@wdio/sync@7.11.0":
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.11.0.tgz#b42bf83bd90ab52fe76a05f382a60cb4c09bcdf5"
-  integrity sha512-Mu4yBev95xSfzsZdFDyGwWug8ZWQxzjwWSZzGmKA6cfKd+ho1/zmMsjNQ5hSFJgBDUHFcneKXCcIK8YLdjyZ1Q==
+"@wdio/sync@7.11.1":
+  version "7.11.1"
+  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.11.1.tgz#7c868bd8807d42286f695eab6d61adc6638ccc9f"
+  integrity sha512-Gdffe45LUpWcGeJOu/oyRcRPI4TwTP336VDpXM0mxFihiOPjTC1RyyV2RhQhcZbSt+Z/Q+t1WSy7NFI8fpla3A==
   dependencies:
     "@types/fibers" "^3.1.0"
     "@types/puppeteer" "^5.4.0"
     "@wdio/logger" "7.7.0"
     "@wdio/types" "7.10.1"
     fibers "^5.0.0"
-    webdriverio "7.11.0"
+    webdriverio "7.11.1"
 
 "@wdio/types@7.10.1":
   version "7.10.1"
@@ -2620,6 +2620,41 @@ webdriverio@7.11.0:
   version "7.11.0"
   resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-7.11.0.tgz#86688704e1bee5df8eac1dd9b71dabcfb8daaefe"
   integrity sha512-II28RBTi7+/W8e6li4qKsgS/KF3yE/r0Q3QHysylU+QTZnH3xIzMz0TRoo8bNyeBZiZuTqH6yuWi+kJ5m5FC/g==
+  dependencies:
+    "@types/aria-query" "^4.2.1"
+    "@types/node" "^15.12.5"
+    "@wdio/config" "7.10.1"
+    "@wdio/logger" "7.7.0"
+    "@wdio/protocols" "7.11.0"
+    "@wdio/repl" "7.11.0"
+    "@wdio/types" "7.10.1"
+    "@wdio/utils" "7.11.0"
+    archiver "^5.0.0"
+    aria-query "^4.2.2"
+    atob "^2.1.2"
+    css-shorthand-properties "^1.1.1"
+    css-value "^0.0.1"
+    devtools "7.11.0"
+    devtools-protocol "^0.0.915197"
+    fs-extra "^10.0.0"
+    get-port "^5.1.1"
+    grapheme-splitter "^1.0.2"
+    lodash.clonedeep "^4.5.0"
+    lodash.isobject "^3.0.2"
+    lodash.isplainobject "^4.0.6"
+    lodash.zip "^4.2.0"
+    minimatch "^3.0.4"
+    puppeteer-core "^10.1.0"
+    query-selector-shadow-dom "^1.0.0"
+    resq "^1.9.1"
+    rgb2hex "0.2.5"
+    serialize-error "^8.0.0"
+    webdriver "7.11.0"
+
+webdriverio@7.11.1:
+  version "7.11.1"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-7.11.1.tgz#8c086b5e622aa80243c1635a1af683a999f51f8c"
+  integrity sha512-N796qZIqkfIJJtSNBcAimnVr3SrnEjbwjYSBqAhVdGSidUKb1k6bxjC223WFwpANGkxABJUrVkx+qGNOtc+yGg==
   dependencies:
     "@types/aria-query" "^4.2.1"
     "@types/node" "^15.12.5"
