@@ -322,13 +322,13 @@
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
-"@wdio/dot-reporter@7.12.5":
-  version "7.12.5"
-  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.12.5.tgz#dc7f9e6f0bf5899810834213b2db5523498fbaa7"
-  integrity sha512-hqb0n8VkMCtdaG7ce4/4zgd+friQq9wwYreUYdl4dGQeQfnwEl81Kc2X+MztzyN0WfdImdIp5uDcX70tWm4nTg==
+"@wdio/dot-reporter@7.13.0":
+  version "7.13.0"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.13.0.tgz#8f3a4b69b08bba53323ed4d821020de79ce99ac4"
+  integrity sha512-0LX6eDiNnU0Jkh1gONK0MI+vzKEFyOXQ+B3mfu7JJCs0eMDcUBZgkfJ7ZmLOKFAPrjDipFLwGthD8WhOzLGLHA==
   dependencies:
-    "@wdio/reporter" "7.12.5"
-    "@wdio/types" "7.12.5"
+    "@wdio/reporter" "7.13.0"
+    "@wdio/types" "7.13.0"
     chalk "^4.0.0"
 
 "@wdio/local-runner@7.13.0":
@@ -389,6 +389,21 @@
     "@types/object-inspect" "^1.8.0"
     "@types/supports-color" "^8.1.0"
     "@wdio/types" "7.12.5"
+    diff "^5.0.0"
+    fs-extra "^10.0.0"
+    object-inspect "^1.10.3"
+    supports-color "8.1.1"
+
+"@wdio/reporter@7.13.0":
+  version "7.13.0"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.13.0.tgz#ac04967862e0a7d065b8c78138ffda92d85e549d"
+  integrity sha512-TnA+siQpXpiKKSttb6I+9/A6qY6vCzf5JFyPhxPAlV/5k0tMOnWE+H3mzxt/iY2+sdV/T7bCuwHOXDM/2pYJsw==
+  dependencies:
+    "@types/diff" "^5.0.0"
+    "@types/node" "^15.12.5"
+    "@types/object-inspect" "^1.8.0"
+    "@types/supports-color" "^8.1.0"
+    "@wdio/types" "7.13.0"
     diff "^5.0.0"
     fs-extra "^10.0.0"
     object-inspect "^1.10.3"
