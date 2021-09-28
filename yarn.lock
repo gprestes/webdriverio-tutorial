@@ -312,6 +312,16 @@
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
+"@wdio/config@7.13.2":
+  version "7.13.2"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-7.13.2.tgz#5abdd8ce71caefd013ec62bb2e885a0a23861d37"
+  integrity sha512-EKrckwuUIABeOX9ju8t+Dj74urrXUko8aNj8TpxPdRL/J3cBQVOb1k/ffm2NSOga9RaLKhbKWzWeWfUULSYsiQ==
+  dependencies:
+    "@wdio/logger" "7.7.0"
+    "@wdio/types" "7.13.2"
+    deepmerge "^4.0.0"
+    glob "^7.1.2"
+
 "@wdio/dot-reporter@7.13.0":
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.13.0.tgz#8f3a4b69b08bba53323ed4d821020de79ce99ac4"
@@ -405,17 +415,17 @@
     webdriver "7.13.1"
     webdriverio "7.13.1"
 
-"@wdio/selenium-standalone-service@7.13.0":
-  version "7.13.0"
-  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-7.13.0.tgz#cfaec61b8a6b91e0ad2e9ba21c4f9c49b759c33b"
-  integrity sha512-yQJ+LRLyaaySdDKdLUonAG3jc2StwSEPTk7q103M/Gu1vEVig4Y/iGVSPdPciBYgWpLc26IuEst730f3u+9cag==
+"@wdio/selenium-standalone-service@7.13.2":
+  version "7.13.2"
+  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-7.13.2.tgz#44edaa4a1b982e9b0182199406ae1a44985fe3dd"
+  integrity sha512-qxRXh3/Vm0VNrUEH3u4RO+PfAwGsRkR+r0Ne4TJCNMTp3X98byTyq/fNI8JsTm1YFbM0PSoYnekWjMKrrG6p4w==
   dependencies:
     "@types/fs-extra" "^9.0.1"
     "@types/node" "^15.12.5"
     "@types/selenium-standalone" "^7.0.0"
-    "@wdio/config" "7.13.0"
+    "@wdio/config" "7.13.2"
     "@wdio/logger" "7.7.0"
-    "@wdio/types" "7.13.0"
+    "@wdio/types" "7.13.2"
     fs-extra "^10.0.0"
     selenium-standalone "^7.0.1"
 
@@ -447,6 +457,14 @@
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.13.0.tgz#d3ee22ef8569016202a2c4999c5c00d1765b47a7"
   integrity sha512-rsfB2GoWX2lTeO4pFkaXqKBj1C5bCKjoDLoRqhm3GMZ6Shk2z24QJ+TtpNuuMAn9TqVKMO7xvdgHeiCfIkiNbg==
+  dependencies:
+    "@types/node" "^15.12.5"
+    got "^11.8.1"
+
+"@wdio/types@7.13.2":
+  version "7.13.2"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.13.2.tgz#7ad775145f3af26225349838ac893ef09008f701"
+  integrity sha512-uTU9e4QjOIME0z4HIEwefitGNjvgeekA4G8EnOGPpgI9JCoR6kjl3X6T58tilDtZVpTC54XwjpjHESz5MwQt2w==
   dependencies:
     "@types/node" "^15.12.5"
     got "^11.8.1"
