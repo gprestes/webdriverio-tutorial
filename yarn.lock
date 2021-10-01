@@ -355,15 +355,15 @@
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^6.0.0"
 
-"@wdio/mocha-framework@7.13.1":
-  version "7.13.1"
-  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-7.13.1.tgz#80608dc5c59494ae309420b92587c3233ab261b8"
-  integrity sha512-3bGI5aaBNuBMN+o3Ym0XAQO7xKfMAxMHbTCngA9IF+jKoD3HK0u9D1xpyx7c+vqjfidP1EmMKoJ/vUENQZamzg==
+"@wdio/mocha-framework@7.13.2":
+  version "7.13.2"
+  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-7.13.2.tgz#59600bc823b249d8cd2cb91d6d00204294a44ded"
+  integrity sha512-NR73KcZrKZYIgly26jTDUIOhC0YvYDdBUgKN/LsIbp63gQsOmx0/QGuh2O58OxMT5Z1ri7vfcnJhf8H73Adu2Q==
   dependencies:
     "@types/mocha" "^9.0.0"
     "@wdio/logger" "7.7.0"
-    "@wdio/types" "7.13.0"
-    "@wdio/utils" "7.13.1"
+    "@wdio/types" "7.13.2"
+    "@wdio/utils" "7.13.2"
     expect-webdriverio "^3.0.0"
     mocha "^9.0.0"
 
@@ -493,15 +493,6 @@
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-7.13.0.tgz#11af27edea7f88cb57c1a053258ffa785ce7777c"
   integrity sha512-srzzDa5naEVi8jki7aOxIEh5egTz6qb0aSUQV4qsj+ZmCqEKITW89+RsqeQbWBUvqMuvorGxHno6DoDl04wI2A==
-  dependencies:
-    "@wdio/logger" "7.7.0"
-    "@wdio/types" "7.13.0"
-    p-iteration "^1.1.8"
-
-"@wdio/utils@7.13.1":
-  version "7.13.1"
-  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-7.13.1.tgz#65217eae512f02ab1ac284cb2d98bcfccefcb87c"
-  integrity sha512-IHzvj6onXdd8Xd1jn1ti+tjfLjFhMMrar71mbQWbxum9TuBV4kXCD+tKx4p0N7rfIeo7Yuoa5M0mGaBucJGYBg==
   dependencies:
     "@wdio/logger" "7.7.0"
     "@wdio/types" "7.13.0"
