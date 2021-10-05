@@ -312,13 +312,13 @@
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
-"@wdio/dot-reporter@7.13.2":
-  version "7.13.2"
-  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.13.2.tgz#ccf57ac5d3fd3c98dff8057fd22c296b46516c3d"
-  integrity sha512-9gpbqPhC1LHoQL2spgMgh7JJ7lk0BCi639uEkt8Ets4WZ3s7GAu24oTijpIFpBOtXG+7hmd9DErijcczRKj2YA==
+"@wdio/dot-reporter@7.14.1":
+  version "7.14.1"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.14.1.tgz#2dcc13ff95058c496ad406fe637e34a830bc2a7e"
+  integrity sha512-wEgIYJ9xAUmM3C9X1hiLn4mLOK/Fb557tc2QMfe3vZNQyHh903MXy3C6XW13lnucuxkJr3ikpZ4vil9n6ttlKA==
   dependencies:
-    "@wdio/reporter" "7.13.2"
-    "@wdio/types" "7.13.2"
+    "@wdio/reporter" "7.14.1"
+    "@wdio/types" "7.14.1"
     chalk "^4.0.0"
 
 "@wdio/local-runner@7.13.2":
@@ -384,6 +384,21 @@
     object-inspect "^1.10.3"
     supports-color "8.1.1"
 
+"@wdio/reporter@7.14.1":
+  version "7.14.1"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.14.1.tgz#7b0c714a5e13eae950435650873687065f2044cf"
+  integrity sha512-x/rV+aTTYf0Kj4Ti/6Yq/XEiA9k3StM6EnkMhaA3S/J6TeuQ8ZHZf6T4Lu/Izafg8F25ky0yH98HxZi2b2Fw1g==
+  dependencies:
+    "@types/diff" "^5.0.0"
+    "@types/node" "^15.12.5"
+    "@types/object-inspect" "^1.8.0"
+    "@types/supports-color" "^8.1.0"
+    "@wdio/types" "7.14.1"
+    diff "^5.0.0"
+    fs-extra "^10.0.0"
+    object-inspect "^1.10.3"
+    supports-color "8.1.1"
+
 "@wdio/runner@7.13.2":
   version "7.13.2"
   resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-7.13.2.tgz#fcb0368c71cea1949181f6c8c73a95ad211899d4"
@@ -440,6 +455,14 @@
   version "7.13.2"
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.13.2.tgz#7ad775145f3af26225349838ac893ef09008f701"
   integrity sha512-uTU9e4QjOIME0z4HIEwefitGNjvgeekA4G8EnOGPpgI9JCoR6kjl3X6T58tilDtZVpTC54XwjpjHESz5MwQt2w==
+  dependencies:
+    "@types/node" "^15.12.5"
+    got "^11.8.1"
+
+"@wdio/types@7.14.1":
+  version "7.14.1"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.14.1.tgz#967e0f81f47addd1fc94b35f556877b738bceb4c"
+  integrity sha512-W1ctBarjFuLz7wub6wNFd3sWfaENf1+thQL2YQW/cgFuTvhyK5hhUPoP2Q1suXBDE+qs90wWwx4z8XwDC6S8OA==
   dependencies:
     "@types/node" "^15.12.5"
     got "^11.8.1"
