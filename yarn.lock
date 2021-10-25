@@ -326,18 +326,18 @@
     "@wdio/types" "7.16.0"
     chalk "^4.0.0"
 
-"@wdio/local-runner@7.14.1":
-  version "7.14.1"
-  resolved "https://registry.yarnpkg.com/@wdio/local-runner/-/local-runner-7.14.1.tgz#9f91e155cd2ab559a7a8a4dfe130825999ad6853"
-  integrity sha512-q/BXKN5hld1MpcABGTkurVKuNWy5GJNJvMamt0Fi5SLFDrTtndxaKFw9aciJiDqkJGCREVjYOOdMnsY+UmMKdg==
+"@wdio/local-runner@7.16.2":
+  version "7.16.2"
+  resolved "https://registry.yarnpkg.com/@wdio/local-runner/-/local-runner-7.16.2.tgz#c3c637d2d0398045636b5a13efa67fb6466b766d"
+  integrity sha512-HW3xyFr9Ja6GbgTBdjw+moWVNwgeA8F39p7cwAcDr0VsJv3OUnoYSgKg/KdhYak3uMXeZWzdg40SIcYmzsJeWw==
   dependencies:
     "@types/stream-buffers" "^3.0.3"
-    "@wdio/logger" "7.7.0"
-    "@wdio/repl" "7.14.1"
-    "@wdio/runner" "7.14.1"
-    "@wdio/types" "7.14.1"
+    "@wdio/logger" "7.16.0"
+    "@wdio/repl" "7.16.1"
+    "@wdio/runner" "7.16.2"
+    "@wdio/types" "7.16.1"
     async-exit-hook "^2.0.1"
-    split2 "^3.2.2"
+    split2 "^4.0.0"
     stream-buffers "^3.0.2"
 
 "@wdio/logger@7.16.0":
@@ -427,19 +427,19 @@
     object-inspect "^1.10.3"
     supports-color "8.1.1"
 
-"@wdio/runner@7.14.1":
-  version "7.14.1"
-  resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-7.14.1.tgz#4c09dd34011eb7e3258ac7babf912a748e0d9618"
-  integrity sha512-wMnv4yQX24/kcINUPq+OcGWAlCL5NldMi45zzt2iOuCeMNEv/Scchahr0gNZ1Mc0zubyCGDzrERYsYHmYAK3Dw==
+"@wdio/runner@7.16.2":
+  version "7.16.2"
+  resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-7.16.2.tgz#5df656f222d7e3cef852a94503c62eb4f6702428"
+  integrity sha512-fBetVGcX5gNs7kloMteORdyZx4J75bnGt4Htm8Ngw396pkDVSzJwIW2ZqsRmBapcgXa+sLVGWwBZrckcSNuJHA==
   dependencies:
-    "@wdio/config" "7.14.1"
-    "@wdio/logger" "7.7.0"
-    "@wdio/types" "7.14.1"
-    "@wdio/utils" "7.14.1"
+    "@wdio/config" "7.16.1"
+    "@wdio/logger" "7.16.0"
+    "@wdio/types" "7.16.1"
+    "@wdio/utils" "7.16.1"
     deepmerge "^4.0.0"
     gaze "^1.1.2"
-    webdriver "7.14.1"
-    webdriverio "7.14.1"
+    webdriver "7.16.1"
+    webdriverio "7.16.2"
 
 "@wdio/selenium-standalone-service@7.14.1":
   version "7.14.1"
@@ -2249,7 +2249,7 @@ readable-stream@^2.0.0, readable-stream@^2.0.5:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-readable-stream@^3.0.0, readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0:
+readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
   integrity sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==
@@ -2445,12 +2445,10 @@ spdx-license-ids@^3.0.0:
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.10.tgz#0d9becccde7003d6c658d487dd48a32f0bf3014b"
   integrity sha512-oie3/+gKf7QtpitB0LYLETe+k8SifzsX4KixvpOsbI6S0kRiRQ5MKOio8eMSAKQ17N06+wdEOXRiId+zOxo0hA==
 
-split2@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/split2/-/split2-3.2.2.tgz#bf2cf2a37d838312c249c89206fd7a17dd12365f"
-  integrity sha512-9NThjpgZnifTkJpzTZ7Eue85S49QwpNhZTq6GRJwObb6jnLFNGB7Qm73V5HewTROPyxD0C29xqmaI68bQtV+hg==
-  dependencies:
-    readable-stream "^3.0.0"
+split2@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/split2/-/split2-4.1.0.tgz#101907a24370f85bb782f08adaabe4e281ecf809"
+  integrity sha512-VBiJxFkxiXRlUIeyMQi8s4hgvKCSjtknJv/LVYbrgALPwf5zSKmEwV9Lst25AkvMDnvxODugjdl6KZgwKM1WYQ==
 
 stack-utils@^2.0.3:
   version "2.0.3"
