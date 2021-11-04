@@ -302,10 +302,10 @@
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
-"@wdio/dot-reporter@7.16.3":
-  version "7.16.3"
-  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.16.3.tgz#d98f8ef6a41cf59f658b9fd566b6d25093462b91"
-  integrity sha512-l90rrAN8i9FSh/yRKnTSkd8QjSk3KmuTcVvrxvF/A6kkBSAXPkMOGdagvF3obShgtsjT7DQwEuIvgRgjx7eXqg==
+"@wdio/dot-reporter@7.16.4":
+  version "7.16.4"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.16.4.tgz#04850e1a9cee7259a091791bf6eb58cd67fdffc9"
+  integrity sha512-Rlf0Ow3W6TeIVIYiHZqefsPpSHhpvCVjXJ8g8i8J+UZaQfgEYgAE/6+v7x3AEbAfLICOeuXOgaX/j0r3Mh22fQ==
   dependencies:
     "@wdio/reporter" "7.16.3"
     "@wdio/types" "7.16.3"
