@@ -475,17 +475,17 @@
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
 
-"@wdio/sync@7.16.12":
-  version "7.16.12"
-  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.16.12.tgz#c5e5955979d188571c192dec231cc5c3380d257c"
-  integrity sha512-PAYgzB20xWTWjUz87ai1SWOQdzKMcmz1du1qTnIni1tae+kSGudM4jZO2WECYXxqDkRKEmjAzVL1KFXZnAr1IA==
+"@wdio/sync@7.16.14":
+  version "7.16.14"
+  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.16.14.tgz#3be858ef7d65c91f738ccdfd17bf431a5d21ceb0"
+  integrity sha512-zQgw6Mkh6gZ6uNS+Ai4/L0TNZ6t3uqbmXCJpgAb7QdSxzEyEI9cACSSUA80qbjqJS39xHnCNukiTohLlLgCmBw==
   dependencies:
     "@types/fibers" "^3.1.0"
     "@types/puppeteer" "^5.4.0"
     "@wdio/logger" "7.16.0"
-    "@wdio/types" "7.16.11"
+    "@wdio/types" "7.16.14"
     fibers "^5.0.0"
-    webdriverio "7.16.12"
+    webdriverio "7.16.14"
 
 "@wdio/types@7.16.11":
   version "7.16.11"
