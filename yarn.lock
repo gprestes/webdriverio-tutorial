@@ -370,15 +370,15 @@
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^6.0.0"
 
-"@wdio/mocha-framework@7.16.15":
-  version "7.16.15"
-  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-7.16.15.tgz#3eec88296ad637c3fc6a85ac8d37772b9c7f886b"
-  integrity sha512-XRya85/RYPZk4MZ7Cvl3oudTdrOo+RyO8b5Ff+dH8hD3GBCACaWgW9AjbsyhvbSTdUlF0gNLPdqOCsxV5XyM3w==
+"@wdio/mocha-framework@7.17.3":
+  version "7.17.3"
+  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-7.17.3.tgz#ffbf118d674ca997cf523618780ddb46e84ad3fb"
+  integrity sha512-6vT4Pf/u+sjQTGrhUd+IrkuhAVT6ojp6jcqywCD+4v2HwdRDek8PShZq3HsvEvqRDCZhiMeyISHkqE8D2ozpgg==
   dependencies:
     "@types/mocha" "^9.0.0"
-    "@wdio/logger" "7.16.0"
-    "@wdio/types" "7.16.14"
-    "@wdio/utils" "7.16.14"
+    "@wdio/logger" "7.17.3"
+    "@wdio/types" "7.17.3"
+    "@wdio/utils" "7.17.3"
     expect-webdriverio "^3.0.0"
     mocha "^9.0.0"
 
