@@ -431,13 +431,13 @@
     fs-extra "^10.0.0"
     selenium-standalone "^8.0.3"
 
-"@wdio/spec-reporter@7.19.5":
-  version "7.19.5"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.19.5.tgz#55d5c1fc99c7b3b2595889abdb332909e1062c65"
-  integrity sha512-ovkjhOowpSJKblEIC5Si+pOmr0/fUqo+bNkxZwYDNSzIwPyxJnED17WSNYw+JAzSp2PgfNwjELoQfMNCDPQvAQ==
+"@wdio/spec-reporter@7.19.7":
+  version "7.19.7"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.19.7.tgz#dd0f69f2e178e8c4a74121865a80abe2ccbd8f1e"
+  integrity sha512-BDBZU2EK/GuC9VxtfqPtoW43FmvKxYDsvcDVDi3F7o+9fkcuGSJiWbw1AX251ZzzVQ7YP9ImTitSpdpUKXkilQ==
   dependencies:
     "@types/easy-table" "^0.0.33"
-    "@wdio/reporter" "7.19.5"
+    "@wdio/reporter" "7.19.7"
     "@wdio/types" "7.19.5"
     chalk "^4.0.0"
     easy-table "^1.1.1"
