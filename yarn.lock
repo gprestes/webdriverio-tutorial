@@ -158,12 +158,7 @@
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-9.0.0.tgz#3205bcd15ada9bc681ac20bef64e9e6df88fd297"
   integrity sha512-scN0hAWyLVAvLR9AyW7HoFF5sJZglyBsbPuHO4fv7JRvfmPBMfp1ozWqOf/e4wwPNxezBZXRfWzMb6iFLgEVRA==
 
-"@types/node@*":
-  version "16.6.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.6.1.tgz#aee62c7b966f55fc66c7b6dfa1d58db2a616da61"
-  integrity sha512-Sr7BhXEAer9xyGuCN3Ek9eg9xPviCF2gfu9kTfuU2HkTVAMYSDeX40fvpmo72n5nansg3nsBjuQBrsS28r+NUw==
-
-"@types/node@^17.0.4":
+"@types/node@*", "@types/node@^17.0.4":
   version "17.0.13"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.13.tgz#5ed7ed7c662948335fcad6c412bb42d99ea754e3"
   integrity sha512-Y86MAxASe25hNzlDbsviXl8jQHb0RDvKt4c40ZJQ1Don0AAL0STLZSs4N+6gLEO55pedy7r2cLwS+ZDxPm/2Bw==
@@ -433,17 +428,17 @@
     webdriver "7.19.7"
     webdriverio "7.19.7"
 
-"@wdio/selenium-standalone-service@7.19.5":
-  version "7.19.5"
-  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-7.19.5.tgz#9bb383b5d9bbddc9df9de308d86459df7332c579"
-  integrity sha512-Llq4zeQiWSOrAdtmAMyr3jiGAxC4mTOJUmCsj6EmzIwOx9wjagfO+ehx3OPdpjYlubSiJFJO8eT2lR34GHNARg==
+"@wdio/selenium-standalone-service@7.20.1":
+  version "7.20.1"
+  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-7.20.1.tgz#120ab2d5316d8def79a326b6eabca814a7188a52"
+  integrity sha512-XOgsgSx1Ge5oMBe6b65UADKZeYAmBCTSFdxfkna/WfLas4K77Yfe1ScJ7S9fRj55tAgTd54yAReyBgCfJ1acIw==
   dependencies:
     "@types/fs-extra" "^9.0.1"
     "@types/node" "^17.0.4"
     "@types/selenium-standalone" "^7.0.0"
-    "@wdio/config" "7.19.5"
+    "@wdio/config" "7.20.1"
     "@wdio/logger" "7.19.0"
-    "@wdio/types" "7.19.5"
+    "@wdio/types" "7.20.0"
     fs-extra "^10.0.0"
     selenium-standalone "^8.0.3"
 
