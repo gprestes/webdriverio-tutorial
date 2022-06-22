@@ -333,16 +333,16 @@
     "@wdio/types" "7.20.3"
     chalk "^4.0.0"
 
-"@wdio/local-runner@7.20.2":
-  version "7.20.2"
-  resolved "https://registry.yarnpkg.com/@wdio/local-runner/-/local-runner-7.20.2.tgz#0109852f97f7d30f604b01ea85510864dc8f3efe"
-  integrity sha512-YP1hziQNtBYkSg7P2OxPk8YKq8/d891wkXWebRPj3fPcNs+uYMV3kSOuPk07jp57EnYdtlljc17U1S7Dp3l3jQ==
+"@wdio/local-runner@7.20.3":
+  version "7.20.3"
+  resolved "https://registry.yarnpkg.com/@wdio/local-runner/-/local-runner-7.20.3.tgz#7c6949f9b8eaa816b61e2cf6ef218a8ce835794b"
+  integrity sha512-cUan5qegBC2Tl09l1jleU4FGNKNbs2D2UmEeSDwf0OkcYokEfVCZ3zLlx1+RgZldKWzsOy4IGizaGvK+rV6dhw==
   dependencies:
     "@types/stream-buffers" "^3.0.3"
     "@wdio/logger" "7.19.0"
-    "@wdio/repl" "7.20.0"
-    "@wdio/runner" "7.20.2"
-    "@wdio/types" "7.20.0"
+    "@wdio/repl" "7.20.3"
+    "@wdio/runner" "7.20.3"
+    "@wdio/types" "7.20.3"
     async-exit-hook "^2.0.1"
     split2 "^4.0.0"
     stream-buffers "^3.0.2"
@@ -388,22 +388,6 @@
   dependencies:
     "@wdio/utils" "7.20.3"
 
-"@wdio/reporter@7.20.0":
-  version "7.20.0"
-  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.20.0.tgz#e01c96be50eb6f42a37c5fd1d424b5d06c0a1829"
-  integrity sha512-QPHaFH9X7dPP5WguRJJY2jDuBPoX+ZSvsDCI9CDOCDvg6ZgrY1Kb0R++U1YJ4swNQYppOYDdgAZTHlaa7/VG9w==
-  dependencies:
-    "@types/diff" "^5.0.0"
-    "@types/node" "^17.0.4"
-    "@types/object-inspect" "^1.8.0"
-    "@types/supports-color" "^8.1.0"
-    "@types/tmp" "^0.2.0"
-    "@wdio/types" "7.20.0"
-    diff "^5.0.0"
-    fs-extra "^10.0.0"
-    object-inspect "^1.10.3"
-    supports-color "8.1.1"
-
 "@wdio/reporter@7.20.3":
   version "7.20.3"
   resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.20.3.tgz#95c874fa0c86bda637b9f6c9c11f9cde1908108e"
@@ -420,19 +404,19 @@
     object-inspect "^1.10.3"
     supports-color "8.1.1"
 
-"@wdio/runner@7.20.2":
-  version "7.20.2"
-  resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-7.20.2.tgz#4e5a91661ce798a86c18ec9413f3ee20683b4cdc"
-  integrity sha512-ZG2SV2ngYIXSX5siVePkUV26ZeZGBwPeoJ4WZCKStEpSwYHfzDi8tQVzUtBmtUJww3GJFBlzePTx8KpkkWqKWQ==
+"@wdio/runner@7.20.3":
+  version "7.20.3"
+  resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-7.20.3.tgz#84b689edd049acd446a1fdcabfb08222c88ba5f0"
+  integrity sha512-YhxMzwtLTeEDNdtpZj2qkMPWdeUh93e+Uujr0rVinucxnDFCvLubKmuwY5yx5UD0I6SQNdNNlp6ZDder/At3MQ==
   dependencies:
-    "@wdio/config" "7.20.1"
+    "@wdio/config" "7.20.3"
     "@wdio/logger" "7.19.0"
-    "@wdio/types" "7.20.0"
-    "@wdio/utils" "7.20.0"
+    "@wdio/types" "7.20.3"
+    "@wdio/utils" "7.20.3"
     deepmerge "^4.0.0"
     gaze "^1.1.2"
-    webdriver "7.20.2"
-    webdriverio "7.20.2"
+    webdriver "7.20.3"
+    webdriverio "7.20.3"
 
 "@wdio/selenium-standalone-service@7.20.1":
   version "7.20.1"
