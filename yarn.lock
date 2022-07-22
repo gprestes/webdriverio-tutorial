@@ -158,20 +158,15 @@
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-9.0.0.tgz#3205bcd15ada9bc681ac20bef64e9e6df88fd297"
   integrity sha512-scN0hAWyLVAvLR9AyW7HoFF5sJZglyBsbPuHO4fv7JRvfmPBMfp1ozWqOf/e4wwPNxezBZXRfWzMb6iFLgEVRA==
 
-"@types/node@*":
-  version "16.6.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.6.1.tgz#aee62c7b966f55fc66c7b6dfa1d58db2a616da61"
-  integrity sha512-Sr7BhXEAer9xyGuCN3Ek9eg9xPviCF2gfu9kTfuU2HkTVAMYSDeX40fvpmo72n5nansg3nsBjuQBrsS28r+NUw==
+"@types/node@*", "@types/node@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.0.tgz#67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a"
+  integrity sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==
 
 "@types/node@^17.0.4":
   version "17.0.13"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.13.tgz#5ed7ed7c662948335fcad6c412bb42d99ea754e3"
   integrity sha512-Y86MAxASe25hNzlDbsviXl8jQHb0RDvKt4c40ZJQ1Don0AAL0STLZSs4N+6gLEO55pedy7r2cLwS+ZDxPm/2Bw==
-
-"@types/node@^18.0.0":
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.0.tgz#67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a"
-  integrity sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==
 
 "@types/object-inspect@^1.8.0":
   version "1.8.1"
@@ -458,17 +453,17 @@
     webdriver "7.20.7"
     webdriverio "7.20.7"
 
-"@wdio/selenium-standalone-service@7.20.1":
-  version "7.20.1"
-  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-7.20.1.tgz#120ab2d5316d8def79a326b6eabca814a7188a52"
-  integrity sha512-XOgsgSx1Ge5oMBe6b65UADKZeYAmBCTSFdxfkna/WfLas4K77Yfe1ScJ7S9fRj55tAgTd54yAReyBgCfJ1acIw==
+"@wdio/selenium-standalone-service@7.20.7":
+  version "7.20.7"
+  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-7.20.7.tgz#344fa415a1334e118c68ee026833252067b35161"
+  integrity sha512-MmjMlko+Tr5b0N0XV4fKe2jcWONtPSaZAgBcNLdamPDpIuWt6lg3doP8U3zXM/9Jk2H9Ic4w0Y4FdY6BiahZMA==
   dependencies:
     "@types/fs-extra" "^9.0.1"
-    "@types/node" "^17.0.4"
+    "@types/node" "^18.0.0"
     "@types/selenium-standalone" "^7.0.0"
-    "@wdio/config" "7.20.1"
+    "@wdio/config" "7.20.7"
     "@wdio/logger" "7.19.0"
-    "@wdio/types" "7.20.0"
+    "@wdio/types" "7.20.7"
     fs-extra "^10.0.0"
     selenium-standalone "^8.0.3"
 
