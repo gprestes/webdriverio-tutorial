@@ -435,17 +435,17 @@
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
 
-"@wdio/sync@7.20.7":
-  version "7.20.7"
-  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.20.7.tgz#076a86c6abb07d12980889d1329406eaa25bdd86"
-  integrity sha512-rZdV+RiyBZQGX/aCu3NylltcuDMOE7RG7tU4o14y9zKVX9NcNKNsNBCjB7AGvXt21lBR0ZNlWRCAMXB28j7x2g==
+"@wdio/sync@7.20.9":
+  version "7.20.9"
+  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.20.9.tgz#5af7e0c20b8a2b39b1c1237b7fe0672a00718686"
+  integrity sha512-YsMvSfVSUmMk/QtLs1fy4Y4qoMIN1QvD3QVLN+GlUahKPWUsWIEYfJHIlktX3QNO8TgGp5GfVpN3HdIgqxSd/Q==
   dependencies:
     "@types/fibers" "^3.1.0"
     "@types/puppeteer" "^5.4.0"
     "@wdio/logger" "7.19.0"
     "@wdio/types" "7.20.7"
-    fibers "^5.0.0"
-    webdriverio "7.20.7"
+    fibers "5.0.1"
+    webdriverio "7.20.9"
 
 "@wdio/types@7.20.7":
   version "7.20.7"
@@ -1206,10 +1206,10 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
-fibers@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/fibers/-/fibers-5.0.0.tgz#3a60e0695b3ee5f6db94e62726716fa7a59acc41"
-  integrity sha512-UpGv/YAZp7mhKHxDvC1tColrroGRX90sSvh8RMZV9leo+e5+EkRVgCEZPlmXeo3BUNQTZxUaVdLskq1Q2FyCPg==
+fibers@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/fibers/-/fibers-5.0.1.tgz#bb9b02aa022685185d21aed227363e456d87660d"
+  integrity sha512-VMC7Frt87Oo0AOJ6EcPFbi+tZmkQ4tD85aatwyWL6I9cYMJmm2e+pXUJsfGZ36U7MffXtjou2XIiWJMtHriErw==
   dependencies:
     detect-libc "^1.0.3"
 
