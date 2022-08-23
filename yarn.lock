@@ -368,17 +368,17 @@
   dependencies:
     "@wdio/utils" "7.23.0"
 
-"@wdio/reporter@7.20.7":
-  version "7.20.7"
-  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.20.7.tgz#bcc93eb40191201ff616db026689808f238aa50a"
-  integrity sha512-r5PP6wQo1dRjYbgYvVnSNrCxsbidgvtLjIg5DWn6FeWL1gJ6W3N+xz1MdCQ53CJ4tSKbFJZQsdeJYDUC3XLHDA==
+"@wdio/reporter@7.21.0":
+  version "7.21.0"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.21.0.tgz#fc25545b96a0e22ccfe13638e75a1795f76b915c"
+  integrity sha512-O18fllf68Lhx0avfb/EwAsDUOkNiMIoDo+rLkWKkNknJ8h7xhmzimUz+37iLZaS/nLfa/ZjnP8adG6/zj3NXrQ==
   dependencies:
     "@types/diff" "^5.0.0"
     "@types/node" "^18.0.0"
     "@types/object-inspect" "^1.8.0"
     "@types/supports-color" "^8.1.0"
     "@types/tmp" "^0.2.0"
-    "@wdio/types" "7.20.7"
+    "@wdio/types" "7.21.0"
     diff "^5.0.0"
     fs-extra "^10.0.0"
     object-inspect "^1.10.3"
@@ -428,14 +428,14 @@
     fs-extra "^10.0.0"
     selenium-standalone "^8.0.3"
 
-"@wdio/spec-reporter@7.20.8":
-  version "7.20.8"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.20.8.tgz#71485d1ae46f34e4fd56298080c8a4d68ecaee7d"
-  integrity sha512-/e9QsdrPnYUSEJM/mossPSJ01h6cy/1ePhJXWM7+1HBdN9+VycT7ilYQ7zKCAu9G6LRg70bx03Nm9ZbgT94YCQ==
+"@wdio/spec-reporter@7.23.0":
+  version "7.23.0"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.23.0.tgz#eed7b0018f5053b268448c9b6980411fb51a9573"
+  integrity sha512-QMMIkQn98pXFtwpOititK9QgVm+7E2eFS2gKYv4zMTkRFiWpizXeg4aBjXJZnEMqmN8OPMQLbptVWW2Ha7Cyqg==
   dependencies:
     "@types/easy-table" "^1.2.0"
-    "@wdio/reporter" "7.20.7"
-    "@wdio/types" "7.20.7"
+    "@wdio/reporter" "7.23.0"
+    "@wdio/types" "7.23.0"
     chalk "^4.0.0"
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
@@ -451,14 +451,6 @@
     "@wdio/types" "7.23.0"
     fibers "5.0.1"
     webdriverio "7.23.0"
-
-"@wdio/types@7.20.7":
-  version "7.20.7"
-  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.20.7.tgz#77ec8d4060f0eb4eb9455586c10ca8347f85986e"
-  integrity sha512-MXz/J5GYswCaa+pyWEVpJoafnbqZr0eJf4p/Z9KsSB5xPWh5Co/1Y8gNLlR1msjV8jKhoWCh55uoBZFU//7G1A==
-  dependencies:
-    "@types/node" "^18.0.0"
-    got "^11.8.1"
 
 "@wdio/types@7.21.0":
   version "7.21.0"
