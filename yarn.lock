@@ -368,22 +368,6 @@
   dependencies:
     "@wdio/utils" "7.23.0"
 
-"@wdio/reporter@7.21.0":
-  version "7.21.0"
-  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.21.0.tgz#fc25545b96a0e22ccfe13638e75a1795f76b915c"
-  integrity sha512-O18fllf68Lhx0avfb/EwAsDUOkNiMIoDo+rLkWKkNknJ8h7xhmzimUz+37iLZaS/nLfa/ZjnP8adG6/zj3NXrQ==
-  dependencies:
-    "@types/diff" "^5.0.0"
-    "@types/node" "^18.0.0"
-    "@types/object-inspect" "^1.8.0"
-    "@types/supports-color" "^8.1.0"
-    "@types/tmp" "^0.2.0"
-    "@wdio/types" "7.21.0"
-    diff "^5.0.0"
-    fs-extra "^10.0.0"
-    object-inspect "^1.10.3"
-    supports-color "8.1.1"
-
 "@wdio/reporter@7.23.0":
   version "7.23.0"
   resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.23.0.tgz#a5db9f1e27ebbab98f3c79780aa89c92e9420295"
@@ -395,6 +379,22 @@
     "@types/supports-color" "^8.1.0"
     "@types/tmp" "^0.2.0"
     "@wdio/types" "7.23.0"
+    diff "^5.0.0"
+    fs-extra "^10.0.0"
+    object-inspect "^1.10.3"
+    supports-color "8.1.1"
+
+"@wdio/reporter@7.25.1":
+  version "7.25.1"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.25.1.tgz#a241745b20136393568958e29840d49caa873f02"
+  integrity sha512-MLEiuoQGFn1ZD5FvzWFdsInuJT7TF/E1sg81mwlMjm5iFpuTvbPCUQq3uJ24xnXfMbw/HLZUnhPqC47+KTKTkw==
+  dependencies:
+    "@types/diff" "^5.0.0"
+    "@types/node" "^18.0.0"
+    "@types/object-inspect" "^1.8.0"
+    "@types/supports-color" "^8.1.0"
+    "@types/tmp" "^0.2.0"
+    "@wdio/types" "7.25.1"
     diff "^5.0.0"
     fs-extra "^10.0.0"
     object-inspect "^1.10.3"
@@ -428,14 +428,14 @@
     fs-extra "^10.0.0"
     selenium-standalone "^8.0.3"
 
-"@wdio/spec-reporter@7.23.0":
-  version "7.23.0"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.23.0.tgz#eed7b0018f5053b268448c9b6980411fb51a9573"
-  integrity sha512-QMMIkQn98pXFtwpOititK9QgVm+7E2eFS2gKYv4zMTkRFiWpizXeg4aBjXJZnEMqmN8OPMQLbptVWW2Ha7Cyqg==
+"@wdio/spec-reporter@7.25.1":
+  version "7.25.1"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.25.1.tgz#01315a3ff718bcc017bd59696b856b09e15b6293"
+  integrity sha512-CazLMJGWh0b+eWtiSmWGfFCl+nB1LHwST30gWsBJ44Xtd/rwl7rXi76Uq/qE2a2kwUs0Od6NLK7ZCa+ISejqwQ==
   dependencies:
     "@types/easy-table" "^1.2.0"
-    "@wdio/reporter" "7.23.0"
-    "@wdio/types" "7.23.0"
+    "@wdio/reporter" "7.25.1"
+    "@wdio/types" "7.25.1"
     chalk "^4.0.0"
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
@@ -452,18 +452,18 @@
     fibers "5.0.1"
     webdriverio "7.23.0"
 
-"@wdio/types@7.21.0":
-  version "7.21.0"
-  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.21.0.tgz#8a71e6fd7d74aa72935975a58ee5abca558672b3"
-  integrity sha512-mKVMNRhUN4Idhz5u3PwblmkyhxQxAw03fOO8q0P0trxncqAFauqn7SJPgObBUui2zvtLUZvXwSHJR3dyns5CBA==
-  dependencies:
-    "@types/node" "^18.0.0"
-    got "^11.8.1"
-
 "@wdio/types@7.23.0":
   version "7.23.0"
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.23.0.tgz#4d2a1099f9d0c6f68372d6ea06a40cb50ee2dc6d"
   integrity sha512-9I00r/AkitiDbOX0swYo6r3t1jzEHd6DD3opH5Zz/pMGQbwMenqvmACH+HwnRA7QKbcRVb1bY66yogMxvfQYAQ==
+  dependencies:
+    "@types/node" "^18.0.0"
+    got "^11.8.1"
+
+"@wdio/types@7.25.1":
+  version "7.25.1"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.25.1.tgz#9e06f5479bc3c95f78811ba77dd96470417f882a"
+  integrity sha512-9Xt2U0YXYxRW4UvMFwjt+44UkfhwrI1gPhW+y56SubpyKaUfdNGberteboQoR/7Os1SVtJry4FohEZNmFzPK6g==
   dependencies:
     "@types/node" "^18.0.0"
     got "^11.8.1"
@@ -500,11 +500,6 @@ ansi-regex@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
   integrity sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
-
-ansi-regex@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-3.0.0.tgz#ed0317c322064f79466c02966bddb605ab37d998"
-  integrity sha1-7QMXwyIGT3lGbAKWa922Bas32Zg=
 
 ansi-regex@^5.0.0:
   version "5.0.0"
@@ -1066,7 +1061,7 @@ diff@5.0.0, diff@^5.0.0:
   resolved "https://registry.yarnpkg.com/diff/-/diff-5.0.0.tgz#7ed6ad76d859d030787ec35855f5b1daf31d852b"
   integrity sha512-/VTCrvm5Z0JGty/BWHljh+BAiw3IK+2j87NGMu8Nwc/f48WoDAC395uomO9ZD117ZOBaHmkX1oyLvkVM/aIT3w==
 
-easy-table@*:
+easy-table@*, easy-table@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/easy-table/-/easy-table-1.2.0.tgz#ba9225d7138fee307bfd4f0b5bc3c04bdc7c54eb"
   integrity sha512-OFzVOv03YpvtcWGe5AayU5G2hgybsg3iqA6drU8UaoZyB9jLGMTrz9+asnLp/E+6qPh88yEI1gvyZFZ41dmgww==
@@ -1074,15 +1069,6 @@ easy-table@*:
     ansi-regex "^5.0.1"
   optionalDependencies:
     wcwidth "^1.0.1"
-
-easy-table@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/easy-table/-/easy-table-1.1.1.tgz#c1b9b9ad68a017091a1c235e4bcba277540e143f"
-  integrity sha512-C9Lvm0WFcn2RgxbMnTbXZenMIWcBtkzMr+dWqq/JsVoGFSVUVlPqeOa5LP5kM0I3zoOazFpckOEb2/0LDFfToQ==
-  dependencies:
-    ansi-regex "^3.0.0"
-  optionalDependencies:
-    wcwidth ">=1.0.1"
 
 edge-paths@^2.1.0:
   version "2.2.1"
@@ -2669,7 +2655,7 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-wcwidth@>=1.0.1, wcwidth@^1.0.1:
+wcwidth@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/wcwidth/-/wcwidth-1.0.1.tgz#f0b0dcf915bc5ff1528afadb2c0e17b532da2fe8"
   integrity sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=
