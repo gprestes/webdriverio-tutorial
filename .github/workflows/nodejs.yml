@@ -13,23 +13,21 @@ jobs:
   build:
 
     runs-on: ubuntu-20.04
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     steps:
     - uses: actions/checkout@v3.3.0
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Setup node
       uses: actions/setup-node@v3.6.0
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version-file: '.nvmrc'
     - uses: nanasess/setup-chromedriver@v1.1.0
     - run: |
         export DISPLAY=:99
         chromedriver --url-base=/wd/hub &
         sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
-    - run: yarn
+    - name: Install dependencies
+      uses: borales/actions-yarn@v4.2.0
+      with:
+        cmd: install
     - run: npm test
       env:
         CI: true
