@@ -322,13 +322,13 @@
     deepmerge "^4.0.0"
     glob "^8.0.3"
 
-"@wdio/dot-reporter@7.29.1":
-  version "7.29.1"
-  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.29.1.tgz#89d73a3ab787744afdcea8768f2cc32f6705e3ab"
-  integrity sha512-E0AkH3SueSOhgklzkBOQdS13p5NU625moIL0Rdhubs7ebUUpJzoV2oLLmjGoS73lETi6XxcA34CE6YvhHxC/4Q==
+"@wdio/dot-reporter@7.30.2":
+  version "7.30.2"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.30.2.tgz#b92d5f30394e284992d301c07b1642a1a458f189"
+  integrity sha512-px7WDhKk5VSiHeG9iudbtVI01ITrKB0IHiPV4s7AI+4Ye/fXzqnx9ajiaxlLLqJ8K6aZLJ6ClBZQOpTrRX8JRg==
   dependencies:
-    "@wdio/reporter" "7.29.1"
-    "@wdio/types" "7.26.0"
+    "@wdio/reporter" "7.30.2"
+    "@wdio/types" "7.30.2"
     chalk "^4.0.0"
 
 "@wdio/local-runner@7.30.1":
