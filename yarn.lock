@@ -146,7 +146,7 @@
   resolved "https://registry.yarnpkg.com/@types/fibers/-/fibers-3.1.1.tgz#b714d357eebf6aec0bc5d70512e573b89bc84f20"
   integrity sha512-yHoUi46uika0snoTpNcVqUSvgbRndaIps4TUCotrXjtc0DHDoPQckmyXEZ2bX3e4mpJmyEW3hRhCwQa/ISCPaA==
 
-"@types/fs-extra@^9.0.1", "@types/fs-extra@^9.0.4":
+"@types/fs-extra@^9.0.4":
   version "9.0.13"
   resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-9.0.13.tgz#7594fbae04fe7f1918ce8b3d213f74ff44ac1f45"
   integrity sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==
@@ -256,13 +256,6 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/responselike/-/responselike-1.0.0.tgz#251f4fe7d154d2bad125abe1b429b23afd262e29"
   integrity sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==
-  dependencies:
-    "@types/node" "*"
-
-"@types/selenium-standalone@^7.0.0":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@types/selenium-standalone/-/selenium-standalone-7.0.1.tgz#7d94c2f663ceb495648c2c2a300f317d3a835257"
-  integrity sha512-zbKenL0fAXzPyiOaaFMrvFdMNhj5BgNJQq8bxiZfwQD9ID2J8bUG5xbcS3tQtlzIX/62z9nG5Vo45oaHWTbvbw==
   dependencies:
     "@types/node" "*"
 
@@ -393,6 +386,20 @@
     "@wdio/logger" "8.6.6"
     "@wdio/types" "8.6.8"
     "@wdio/utils" "8.6.8"
+    decamelize "^6.0.0"
+    deepmerge-ts "^5.0.0"
+    glob "^9.3.0"
+    import-meta-resolve "^2.1.0"
+    read-pkg-up "^9.1.0"
+
+"@wdio/config@8.8.6":
+  version "8.8.6"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-8.8.6.tgz#d2b31543606affd8a3db1a27bcdd8d8b54aa8ab9"
+  integrity sha512-vT49Po8iwwxAXSL/SFLDhifKoXXIlt9Qj2Vy6fMtM+wBhsfAtpKGsalcRE2lR0DiW+4O+kZW6wgKebaxeyBlNw==
+  dependencies:
+    "@wdio/logger" "8.6.6"
+    "@wdio/types" "8.8.6"
+    "@wdio/utils" "8.8.6"
     decamelize "^6.0.0"
     deepmerge-ts "^5.0.0"
     glob "^9.3.0"
@@ -534,19 +541,16 @@
     webdriver "8.6.8"
     webdriverio "8.6.8"
 
-"@wdio/selenium-standalone-service@7.30.2":
-  version "7.30.2"
-  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-7.30.2.tgz#99f1015489b6f85491792088f9ebfae17b59a347"
-  integrity sha512-EUH7wpoJUwu4wol+IbXr4Rg+T4lNyd5Q1fLjMJv8i3sNq1hjQtUNYGjKtA4u7oyilmj3bR+D6HJmiS/N8fjj+g==
+"@wdio/selenium-standalone-service@8.8.6":
+  version "8.8.6"
+  resolved "https://registry.yarnpkg.com/@wdio/selenium-standalone-service/-/selenium-standalone-service-8.8.6.tgz#44aba420ea4c7e5ac8d2d69384dc9815ecda1711"
+  integrity sha512-Ks8hHoJX0E/CT6NKnf1Z5yxSZIm4kDBqbnwoqydeDhoSbiYObN8N6lTWiiOYzEppRsNeZMdIfU4+RkmOh369Yw==
   dependencies:
-    "@types/fs-extra" "^9.0.1"
     "@types/node" "^18.0.0"
-    "@types/selenium-standalone" "^7.0.0"
-    "@wdio/config" "7.30.2"
-    "@wdio/logger" "7.26.0"
-    "@wdio/types" "7.30.2"
-    fs-extra "^10.0.0"
-    selenium-standalone "^8.0.3"
+    "@wdio/config" "8.8.6"
+    "@wdio/logger" "8.6.6"
+    "@wdio/types" "8.8.6"
+    selenium-standalone "^8.2.1"
 
 "@wdio/spec-reporter@7.30.2":
   version "7.30.2"
@@ -595,6 +599,13 @@
   dependencies:
     "@types/node" "^18.0.0"
 
+"@wdio/types@8.8.6":
+  version "8.8.6"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-8.8.6.tgz#edb0f2d8564e753c211484b819a4e4fd838b0cb6"
+  integrity sha512-SwV0k0iv3F0ePZ3VyLuotAv9HKme4496+j/uBs1pKLzsLfemJ15F7d+LQr7eSIDr2THpmMTfoUvCzLbefiB/Xg==
+  dependencies:
+    "@types/node" "^18.0.0"
+
 "@wdio/utils@7.26.0":
   version "7.26.0"
   resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-7.26.0.tgz#e282d072ccbacbe583f6d1b192c0320cede170c1"
@@ -620,6 +631,16 @@
   dependencies:
     "@wdio/logger" "8.6.6"
     "@wdio/types" "8.6.8"
+    import-meta-resolve "^2.2.0"
+    p-iteration "^1.1.8"
+
+"@wdio/utils@8.8.6":
+  version "8.8.6"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-8.8.6.tgz#26f96c29b153c595935fbb824ffae0958e30dfe9"
+  integrity sha512-xQ461/7b9IsZ/B0/fMfQHlp6+li/50GzinsZSCvg4hCR56iYNmbVKBD7uYpqyzUf4+c5dHkEMNxLta6BQzS/sg==
+  dependencies:
+    "@wdio/logger" "8.6.6"
+    "@wdio/types" "8.8.6"
     import-meta-resolve "^2.2.0"
     p-iteration "^1.1.8"
 
@@ -3302,7 +3323,7 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-selenium-standalone@^8.0.3:
+selenium-standalone@^8.2.1:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/selenium-standalone/-/selenium-standalone-8.3.0.tgz#effe900ffb764f2b9db29d3b2008ea68f289e328"
   integrity sha512-cQVWQGxumvPnyzFNtzFtBfDCbqBsdEnwiOwRyrAzeUqf5ltAp3Z3+2f6asSFbLUQJs2sFuF6PsEyNA+eOzXKxg==
