@@ -399,13 +399,13 @@
     import-meta-resolve "^2.1.0"
     read-pkg-up "^9.1.0"
 
-"@wdio/dot-reporter@7.30.2":
-  version "7.30.2"
-  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.30.2.tgz#b92d5f30394e284992d301c07b1642a1a458f189"
-  integrity sha512-px7WDhKk5VSiHeG9iudbtVI01ITrKB0IHiPV4s7AI+4Ye/fXzqnx9ajiaxlLLqJ8K6aZLJ6ClBZQOpTrRX8JRg==
+"@wdio/dot-reporter@7.33.0":
+  version "7.33.0"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-7.33.0.tgz#d96d1a3223538ca4964c3c659ee08187c5ff58c7"
+  integrity sha512-cFMP4YhKvdtcFpr7yJgDs7Pl332NvhVEWK8vqRzJf0J3XbS55CRXZw58HmR69MmuK+pm277+e7WMuNbgqsqaYQ==
   dependencies:
-    "@wdio/reporter" "7.30.2"
-    "@wdio/types" "7.30.2"
+    "@wdio/reporter" "7.33.0"
+    "@wdio/types" "7.33.0"
     chalk "^4.0.0"
 
 "@wdio/globals@8.6.8":
@@ -517,6 +517,22 @@
     object-inspect "^1.10.3"
     supports-color "8.1.1"
 
+"@wdio/reporter@7.33.0":
+  version "7.33.0"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.33.0.tgz#1306a720e8025f7c97bccdb810f8b4077a35943c"
+  integrity sha512-iL3SwP+hVmu1qj54YPwRCK+ZpVN75xpltYihjpuZCWZKJ0qpQuE2oBlNauFQWgrrd74ta20EDV4mSIhXm9lX6g==
+  dependencies:
+    "@types/diff" "^5.0.0"
+    "@types/node" "^18.0.0"
+    "@types/object-inspect" "^1.8.0"
+    "@types/supports-color" "^8.1.0"
+    "@types/tmp" "^0.2.0"
+    "@wdio/types" "7.33.0"
+    diff "^5.0.0"
+    fs-extra "^11.1.1"
+    object-inspect "^1.10.3"
+    supports-color "8.1.1"
+
 "@wdio/runner@8.6.8":
   version "8.6.8"
   resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-8.6.8.tgz#078ff286a44be055bc683e18103d3aec494af7bf"
@@ -584,6 +600,14 @@
   version "7.30.2"
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.30.2.tgz#0baa4b8249aa1d98a545144e6fb494f1b186b24f"
   integrity sha512-uZ8o7FX8RyBsaXiOWa59UKTCHTtADNvOArYTcHNEIzt+rh4JdB/uwqfc8y4TCNA2kYm7PWaQpUFwpStLeg0H1Q==
+  dependencies:
+    "@types/node" "^18.0.0"
+    got "^11.8.1"
+
+"@wdio/types@7.33.0":
+  version "7.33.0"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.33.0.tgz#96f684de629e260eacbfd4e925321a015d811d3c"
+  integrity sha512-tNcuN5Kl+i5CffaeTYV1omzAo4rVjiI1m9raIA8ph6iVteWdCzYv2/ImpGgFiBPb7Mf6VokU3+q9Slh5Jitaww==
   dependencies:
     "@types/node" "^18.0.0"
     got "^11.8.1"
@@ -1648,6 +1672,15 @@ fs-extra@^10.0.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
   integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+fs-extra@^11.1.1:
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.1.tgz#da69f7c39f3b002378b0954bb6ae7efdc0876e2d"
+  integrity sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
