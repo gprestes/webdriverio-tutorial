@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3.6.0
     - name: Setup node
-      uses: actions/setup-node@v3.6.0
+      uses: actions/setup-node@v3.8.2
       with:
         node-version-file: '.nvmrc'
     - uses: nanasess/setup-chromedriver@v2.0.0
