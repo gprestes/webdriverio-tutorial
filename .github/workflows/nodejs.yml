@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-node@v4.0.3
       with:
         node-version-file: '.nvmrc'
-    - uses: nanasess/setup-chromedriver@v2.0.0
+    - uses: nanasess/setup-chromedriver@v2.2.2
     - run: |
         export DISPLAY=:99
         chromedriver --url-base=/wd/hub &
