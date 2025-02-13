@@ -617,13 +617,13 @@
     glob "^10.2.2"
     import-meta-resolve "^4.0.0"
 
-"@wdio/dot-reporter@9.5.0":
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-9.5.0.tgz#45056b235f9e9da33970d994b348012a6d645736"
-  integrity sha512-hSr0o1H0120L0yAlhFAZp/1n6mdp+gOnBQDqcyA8j2Bzm5zq9ag4VK/iJCtgDMs02OsbJ+ogyXUv/LSFsO/+eg==
+"@wdio/dot-reporter@9.9.0":
+  version "9.9.0"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-9.9.0.tgz#8162e15aec001681d54168682937372640cf9b2e"
+  integrity sha512-Ja/2IMqaNrLPkpwrZrsR8PBXgN50wan3aBr4jCReVWaVaAN1LMIXZJStDJKre5F6Pc/H3NZQyw0M95EZk7WtQA==
   dependencies:
-    "@wdio/reporter" "9.5.0"
-    "@wdio/types" "9.5.0"
+    "@wdio/reporter" "9.9.0"
+    "@wdio/types" "9.9.0"
     chalk "^5.0.1"
 
 "@wdio/globals@9.6.0":
@@ -735,6 +735,17 @@
     diff "^7.0.0"
     object-inspect "^1.12.0"
 
+"@wdio/reporter@9.9.0":
+  version "9.9.0"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-9.9.0.tgz#6451b49eb95628d9e2a79c4c31996eae59f41ab6"
+  integrity sha512-JYZa2a40egdlYmJo4mJn931xp8o4x/o0+zFXt2Mvm5qPuQX+r2hKJxmnstbldP63WJw9MjXpS+8+Q3/d6x7mLQ==
+  dependencies:
+    "@types/node" "^20.1.0"
+    "@wdio/logger" "9.4.4"
+    "@wdio/types" "9.9.0"
+    diff "^7.0.0"
+    object-inspect "^1.12.0"
+
 "@wdio/runner@9.6.0":
   version "9.6.0"
   resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-9.6.0.tgz#6d2f9e37ec07fc7f92498f663ceb392fb755eef0"
@@ -804,6 +815,13 @@
   version "9.5.0"
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-9.5.0.tgz#260dd40f3bd26519adc0e1102a0c909a4faa402c"
   integrity sha512-sX1vH6VebVHvgdpySTOXzKNazHBu+yFr5bMvveJ2T4vKjJTJOAwO6nPftjKcgGDfhyYxM3xOCvboKICdQKFgEg==
+  dependencies:
+    "@types/node" "^20.1.0"
+
+"@wdio/types@9.9.0":
+  version "9.9.0"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-9.9.0.tgz#0bcf9252523dc5dca8f537ba6aca2d054b9068ac"
+  integrity sha512-Mh7ryL7uWKECStKcF6pWSbYkC51OemOwQR2pmvymP5HOfG74s6RVbJ+Z6Om8ffiJeTI5nZuvNDzYNkUpm7Elzg==
   dependencies:
     "@types/node" "^20.1.0"
 
