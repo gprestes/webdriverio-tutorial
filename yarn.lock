@@ -561,7 +561,7 @@
     magic-string "^0.30.12"
     pathe "^1.1.2"
 
-"@vitest/snapshot@^3.2.0":
+"@vitest/snapshot@^3.2.1":
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/@vitest/snapshot/-/snapshot-3.2.1.tgz#40a31ffe0304f93a7b6099194e9130e59b8b4a71"
   integrity sha512-5xko/ZpW2Yc65NVK9Gpfg2y4BFvcF+At7yRT5AHUpTg9JvZ4xZoyuRY4ASlmNcBZjMslV08VRLDrBOmUe2YX3g==
@@ -1870,11 +1870,11 @@ execa@^9.2.0:
     yoctocolors "^2.1.1"
 
 expect-webdriverio@^5.1.0:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/expect-webdriverio/-/expect-webdriverio-5.2.1.tgz#61e251494a7a383d33102179d78ae4e6ca988c8c"
-  integrity sha512-rjTiQ8ztIsrRYH4sVrDjAGi/XWUN1LuTtJ+yr3OlWs6sgYx57mrI0Cn3rDAavCVU6eqZ1oBAcBZL583sY3mx2Q==
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/expect-webdriverio/-/expect-webdriverio-5.2.2.tgz#e2f13443b125febeb14e21f5239643a01cf6385c"
+  integrity sha512-lSzyJQOTWtFkP7uN9hWGvCZvnOUjtjNBjnQeJdNHBshQgli5xXam9p9phoqDds0juWZe0Qif8VIwXdOetF7e1Q==
   dependencies:
-    "@vitest/snapshot" "^3.2.0"
+    "@vitest/snapshot" "^3.2.1"
     expect "^29.7.0"
     jest-matcher-utils "^29.7.0"
     lodash.isequal "^4.5.0"
