@@ -646,6 +646,15 @@
     "@wdio/types" "9.15.0"
     chalk "^5.0.1"
 
+"@wdio/dot-reporter@9.16.2":
+  version "9.16.2"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-9.16.2.tgz#d862976f1c0131aed9d78718eaee9a5df828eeda"
+  integrity sha512-JzFegviZdpzgvt8w8uwI0pyJguIuJzfzlkkyWz1WUoqtilH4yrf5IYKzObnm3peh7iQ/y2J1SSeAjKr0Hr5xTg==
+  dependencies:
+    "@wdio/reporter" "9.16.2"
+    "@wdio/types" "9.16.2"
+    chalk "^5.0.1"
+
 "@wdio/globals@9.15.0":
   version "9.15.0"
   resolved "https://registry.yarnpkg.com/@wdio/globals/-/globals-9.15.0.tgz#1254b1eca6725118d9ab900f0b7367bc64a2a944"
@@ -698,6 +707,16 @@
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^7.1.0"
 
+"@wdio/logger@9.16.2":
+  version "9.16.2"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-9.16.2.tgz#09474d299837bfc799723e7787eaaa52105cb94f"
+  integrity sha512-6A1eVpNPToWupLIo8CXStth4HJGTfxKsAiKtwE0xQFKyDM8uPTm3YO3Nf15vCSHbmsncbYVEo7QrUwRUEB4YUg==
+  dependencies:
+    chalk "^5.1.2"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.8.4"
+    strip-ansi "^7.1.0"
+
 "@wdio/mocha-framework@9.15.0":
   version "9.15.0"
   resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-9.15.0.tgz#d98bad760bce403f1f45d1043972f56185219f33"
@@ -742,6 +761,17 @@
     "@types/node" "^20.1.0"
     "@wdio/logger" "9.15.0"
     "@wdio/types" "9.15.0"
+    diff "^7.0.0"
+    object-inspect "^1.12.0"
+
+"@wdio/reporter@9.16.2":
+  version "9.16.2"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-9.16.2.tgz#8a532210c48a11afc73637f5eb1962f507cd5241"
+  integrity sha512-th+APMRuK03OzpiJKnfhCwnXoJb57mRmP/NQYGc+k9GEF3Z3yPDD7LxnBlwPANGxt/hdzirQ6OvQyJYLwpmmuQ==
+  dependencies:
+    "@types/node" "^20.1.0"
+    "@wdio/logger" "9.16.2"
+    "@wdio/types" "9.16.2"
     diff "^7.0.0"
     object-inspect "^1.12.0"
 
@@ -815,6 +845,13 @@
   version "9.15.0"
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-9.15.0.tgz#2966c4a73f55c4b7fec9fca35ff074d9b5856d9d"
   integrity sha512-hR0Dm9TsrjtgOLWOjUMYTOB1hWIlnDzFgZt7XGOzI9Ig8Qa+TDfZSFaZukGxqLIZS/eGhxpnunSHaTAXwJIxYA==
+  dependencies:
+    "@types/node" "^20.1.0"
+
+"@wdio/types@9.16.2":
+  version "9.16.2"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-9.16.2.tgz#1d27568b41acde83cfc78621677744ed9894a676"
+  integrity sha512-P86FvM/4XQGpJKwlC2RKF3I21TglPvPOozJGG9HoL0Jmt6jRF20ggO/nRTxU0XiWkRdqESUTmfA87bdCO4GRkQ==
   dependencies:
     "@types/node" "^20.1.0"
 
