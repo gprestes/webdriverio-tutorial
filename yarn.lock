@@ -769,6 +769,17 @@
     diff "^7.0.0"
     object-inspect "^1.12.0"
 
+"@wdio/reporter@9.17.0":
+  version "9.17.0"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-9.17.0.tgz#af89d85d51f672c8005c2e2e4f99513758d4aedf"
+  integrity sha512-jGJfzKg4nx7jCWDbQX9OpUj48BRzz+ZpN4DdpUPf/wLcCL0doCzGMP0/2sj3D6ShcZUUM0FVMhVqNfcuOscFLQ==
+  dependencies:
+    "@types/node" "^20.1.0"
+    "@wdio/logger" "9.16.2"
+    "@wdio/types" "9.16.2"
+    diff "^7.0.0"
+    object-inspect "^1.12.0"
+
 "@wdio/runner@9.16.2":
   version "9.16.2"
   resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-9.16.2.tgz#ba192d8fc01e9f1812c73161b128b3b59e403f98"
@@ -796,12 +807,12 @@
     "@wdio/types" "8.14.0"
     selenium-standalone "^9.0.5"
 
-"@wdio/spec-reporter@9.16.2":
-  version "9.16.2"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-9.16.2.tgz#7f0b38c5296d35cbf39d18173f16df132b886559"
-  integrity sha512-14HhLSvc+sHns0v07yL8MTfd9BVQ1VhEsywQFA6RbFvKc5PkyoLcxmQSzcH0FOjHhXAfwBh6YxL1mbJwy6+L+w==
+"@wdio/spec-reporter@9.17.0":
+  version "9.17.0"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-9.17.0.tgz#ca7ec6cc43fb2a8b2f4c89266326d571f103c347"
+  integrity sha512-2b5EvJFZ0ZlIA/oeR0/3t1mzgcqZqseUV5Fp047khToiM0kkoyvKwhqjsCzithdo7bO5OCckXqfNjTxBUtwZeg==
   dependencies:
-    "@wdio/reporter" "9.16.2"
+    "@wdio/reporter" "9.17.0"
     "@wdio/types" "9.16.2"
     chalk "^5.1.2"
     easy-table "^1.2.0"
