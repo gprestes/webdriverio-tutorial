@@ -722,16 +722,16 @@
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^7.1.0"
 
-"@wdio/mocha-framework@9.16.2":
-  version "9.16.2"
-  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-9.16.2.tgz#ddff8832c936d5b93a8f27c923ab8e303a207ff8"
-  integrity sha512-t+SxdS539Gy0iYudmCWV8FSDGQLdTKR8dnYTaPePCGXI3kkeh95h9ODloLOITOi/ndjLe5vsFH/Vd5rBr12rFA==
+"@wdio/mocha-framework@9.17.0":
+  version "9.17.0"
+  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-9.17.0.tgz#f4b9791b91c8e3c6e0df8067fae8712bed2fbbe1"
+  integrity sha512-n3vkfEcJFqsMT4Rhh9lQvnRr4PbYibw7isWTcRm98Hd+XWPjqee94IFQOoV+HqAfVwCizxt5ghCLt2NYx6+lnw==
   dependencies:
     "@types/mocha" "^10.0.6"
     "@types/node" "^20.11.28"
     "@wdio/logger" "9.16.2"
     "@wdio/types" "9.16.2"
-    "@wdio/utils" "9.16.2"
+    "@wdio/utils" "9.17.0"
     mocha "^10.3.0"
 
 "@wdio/protocols@7.27.0":
@@ -874,6 +874,26 @@
     get-port "^7.0.0"
     import-meta-resolve "^4.0.0"
     locate-app "^2.2.24"
+    safaridriver "^1.0.0"
+    split2 "^4.2.0"
+    wait-port "^1.1.0"
+
+"@wdio/utils@9.17.0":
+  version "9.17.0"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-9.17.0.tgz#11ac4664440d64ae8630bdbc5f5cbcbf66f11edc"
+  integrity sha512-z9k8+DbhyJPLs88w/SLcUuXMdoPq2r/lE2qQ79pqWAG0jmm7kJqkBvZyndaTrSrGbh+NgjTEgh1epD1PHYtnwg==
+  dependencies:
+    "@puppeteer/browsers" "^2.2.0"
+    "@wdio/logger" "9.16.2"
+    "@wdio/types" "9.16.2"
+    decamelize "^6.0.0"
+    deepmerge-ts "^7.0.3"
+    edgedriver "^6.1.1"
+    geckodriver "^5.0.0"
+    get-port "^7.0.0"
+    import-meta-resolve "^4.0.0"
+    locate-app "^2.2.24"
+    mitt "^3.0.1"
     safaridriver "^1.0.0"
     split2 "^4.2.0"
     wait-port "^1.1.0"
@@ -2854,6 +2874,11 @@ minimist@^1.2.5:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-7.1.2.tgz#93a9626ce5e5e66bd4db86849e7515e92340a707"
   integrity sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==
+
+mitt@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/mitt/-/mitt-3.0.1.tgz#ea36cf0cc30403601ae074c8f77b7092cdab36d1"
+  integrity sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==
 
 mkdirp-classic@^0.5.2:
   version "0.5.3"
