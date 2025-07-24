@@ -693,15 +693,15 @@
   resolved "https://registry.yarnpkg.com/@wdio/globals/-/globals-9.17.0.tgz#d926315dd81387c01a6dbf01cc2ff85680758681"
   integrity sha512-i38o7wlipLllNrk2hzdDfAmk6nrqm3lR2MtAgWgtHbwznZAKkB84KpkNFfmUXw5Kg3iP1zKlSjwZpKqenuLc+Q==
 
-"@wdio/local-runner@9.18.1":
-  version "9.18.1"
-  resolved "https://registry.yarnpkg.com/@wdio/local-runner/-/local-runner-9.18.1.tgz#f12f9078026740f12597baa7199d7519f4be484e"
-  integrity sha512-AdsbI9PXNqHmEpWnmbtaRLHIEIbRReFA0L1kefVxbUrNcCRNcP8OBwpHQjUzJvOv9g99U0JltdtGwsXxZKhn2g==
+"@wdio/local-runner@9.18.4":
+  version "9.18.4"
+  resolved "https://registry.yarnpkg.com/@wdio/local-runner/-/local-runner-9.18.4.tgz#eafa35c7ddf6382ac1eea9b5f07aafb2ddf5f394"
+  integrity sha512-WpsQndozdF6NYc16CBAHiiUgPJ2iJDzT63ndCEU202BxXYajJZaAcFeduRgb762ShrRcGlo1tOx2jtpd1eNAgw==
   dependencies:
     "@types/node" "^20.1.0"
     "@wdio/logger" "9.18.0"
     "@wdio/repl" "9.16.2"
-    "@wdio/runner" "9.18.1"
+    "@wdio/runner" "9.18.4"
     "@wdio/types" "9.16.2"
     exit-hook "^4.0.0"
     expect-webdriverio "^5.3.4"
@@ -786,10 +786,10 @@
     diff "^8.0.2"
     object-inspect "^1.12.0"
 
-"@wdio/runner@9.18.1":
-  version "9.18.1"
-  resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-9.18.1.tgz#a09b4e0ff9e610e55e5b6afa9c3aa18f151fa582"
-  integrity sha512-B0S8o873Nv/AUDyxb4dL6YpvbD7xm+GYWUhDiSAug2TE40AGd0c+UmaTHZbq9cXGTUdA4SaP3eQiG5yMWJxiRA==
+"@wdio/runner@9.18.4":
+  version "9.18.4"
+  resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-9.18.4.tgz#84af34c0857093b96aa3c3d88aedef9ee77a5ca9"
+  integrity sha512-tcygKdvfDMLj4RHKf2oxLe79yAh9qXLcCGH75LdJJNbztbh31Zs3w/s7XYOYxJyIHbMlYX5as9vPZk1N2KjjGQ==
   dependencies:
     "@types/node" "^20.11.28"
     "@wdio/config" "9.18.0"
@@ -800,7 +800,7 @@
     "@wdio/utils" "9.18.0"
     deepmerge-ts "^7.0.3"
     webdriver "9.18.0"
-    webdriverio "9.18.1"
+    webdriverio "9.18.4"
 
 "@wdio/selenium-standalone-service@8.15.0":
   version "8.15.0"
@@ -4142,6 +4142,37 @@ webdriverio@9.18.1:
   version "9.18.1"
   resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-9.18.1.tgz#836050fec2566a3b659afc58745898066ea90c5b"
   integrity sha512-b9aVtmi5+BUkae+SfJlajjKcVWqhMP+HdxpW2B3MlAtvYG2MRpwXkR34yvRIh5IYVMnR5tyUi5knDlJUGOPHPQ==
+  dependencies:
+    "@types/node" "^20.11.30"
+    "@types/sinonjs__fake-timers" "^8.1.5"
+    "@wdio/config" "9.18.0"
+    "@wdio/logger" "9.18.0"
+    "@wdio/protocols" "9.16.2"
+    "@wdio/repl" "9.16.2"
+    "@wdio/types" "9.16.2"
+    "@wdio/utils" "9.18.0"
+    archiver "^7.0.1"
+    aria-query "^5.3.0"
+    cheerio "^1.0.0-rc.12"
+    css-shorthand-properties "^1.1.1"
+    css-value "^0.0.1"
+    grapheme-splitter "^1.0.4"
+    htmlfy "^0.8.1"
+    is-plain-obj "^4.1.0"
+    jszip "^3.10.1"
+    lodash.clonedeep "^4.5.0"
+    lodash.zip "^4.2.0"
+    query-selector-shadow-dom "^1.0.1"
+    resq "^1.11.0"
+    rgb2hex "0.2.5"
+    serialize-error "^12.0.0"
+    urlpattern-polyfill "^10.0.0"
+    webdriver "9.18.0"
+
+webdriverio@9.18.4:
+  version "9.18.4"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-9.18.4.tgz#02e16ce15a9b9ee7842789c876ecb1b6a53f043e"
+  integrity sha512-Q/gghz/Zt7EhTnbDQfLb61WgSwCksXZE60lEzmDXe4fULCH/6Js5IWUsne3W+BRy6nXeVvFscHD/d7S77dbamw==
   dependencies:
     "@types/node" "^20.11.30"
     "@types/sinonjs__fake-timers" "^8.1.5"
