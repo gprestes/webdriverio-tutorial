@@ -679,6 +679,18 @@
     glob "^10.2.2"
     import-meta-resolve "^4.0.0"
 
+"@wdio/config@9.19.0":
+  version "9.19.0"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-9.19.0.tgz#f4cd41b0b32b81f1b8566db8be278902f17a4182"
+  integrity sha512-LMhcI1xj4hfx//IW7WdicbMFhtwkxxaLVbxGS6EVh/yMaQLYZpLD4drJUYQPjy5Rk3DMWIB2OpH+z7f+WDxf4w==
+  dependencies:
+    "@wdio/logger" "9.18.0"
+    "@wdio/types" "9.19.0"
+    "@wdio/utils" "9.19.0"
+    deepmerge-ts "^7.0.3"
+    glob "^10.2.2"
+    import-meta-resolve "^4.0.0"
+
 "@wdio/dot-reporter@9.18.0":
   version "9.18.0"
   resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-9.18.0.tgz#ddb85d723ba0e2c72b74e5c5a0a2216dedd01eaf"
@@ -858,6 +870,13 @@
   dependencies:
     "@types/node" "^20.1.0"
 
+"@wdio/types@9.19.0":
+  version "9.19.0"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-9.19.0.tgz#0183a032799bbc33b8630e2930a77e5f229d1b3e"
+  integrity sha512-prBgfxawncE5NDQdLJlXhoNsC+YPcHGls/fT2mCo0mwYV9zUyTBfLSt+Eo6l+mtvRGAkmMtn5LuQogUWwYHEDg==
+  dependencies:
+    "@types/node" "^20.1.0"
+
 "@wdio/utils@7.26.0":
   version "7.26.0"
   resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-7.26.0.tgz#e282d072ccbacbe583f6d1b192c0320cede170c1"
@@ -884,6 +903,26 @@
     "@puppeteer/browsers" "^2.2.0"
     "@wdio/logger" "9.18.0"
     "@wdio/types" "9.16.2"
+    decamelize "^6.0.0"
+    deepmerge-ts "^7.0.3"
+    edgedriver "^6.1.2"
+    geckodriver "^5.0.0"
+    get-port "^7.0.0"
+    import-meta-resolve "^4.0.0"
+    locate-app "^2.2.24"
+    mitt "^3.0.1"
+    safaridriver "^1.0.0"
+    split2 "^4.2.0"
+    wait-port "^1.1.0"
+
+"@wdio/utils@9.19.0":
+  version "9.19.0"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-9.19.0.tgz#02b6befc7dec0fc31fd555d591343afdbde3f5c8"
+  integrity sha512-AHcxB1zSVxpe4Ure4MMnWAu2nh7kDVfZT0X4XOINVrQwLxjXSSy05iJ0589BrovqK0tV9lUNn1Rm//5gIiVD4Q==
+  dependencies:
+    "@puppeteer/browsers" "^2.2.0"
+    "@wdio/logger" "9.18.0"
+    "@wdio/types" "9.19.0"
     decamelize "^6.0.0"
     deepmerge-ts "^7.0.3"
     edgedriver "^6.1.2"
@@ -4105,6 +4144,23 @@ webdriver@9.18.0:
     undici "^6.21.3"
     ws "^8.8.0"
 
+webdriver@9.19.0:
+  version "9.19.0"
+  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-9.19.0.tgz#c4d9cd2060b299b9db72bc8beffd02806f843ca2"
+  integrity sha512-o5ZUvy1IFrlkVuf9hnlwQQnTMVSkEurXQkREb9XXSfcGdzValQejw7vmIrROaPVTgmLcnCq17cNzvirRWkBmgw==
+  dependencies:
+    "@types/node" "^20.1.0"
+    "@types/ws" "^8.5.3"
+    "@wdio/config" "9.19.0"
+    "@wdio/logger" "9.18.0"
+    "@wdio/protocols" "9.16.2"
+    "@wdio/types" "9.19.0"
+    "@wdio/utils" "9.19.0"
+    deepmerge-ts "^7.0.3"
+    https-proxy-agent "^7.0.6"
+    undici "^6.21.3"
+    ws "^8.8.0"
+
 webdriverio@7.27.0:
   version "7.27.0"
   resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-7.27.0.tgz#33adbd8b377aec79eb40a7873da9fc02bdab1b40"
@@ -4168,6 +4224,37 @@ webdriverio@9.18.1:
     serialize-error "^12.0.0"
     urlpattern-polyfill "^10.0.0"
     webdriver "9.18.0"
+
+webdriverio@9.19.0:
+  version "9.19.0"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-9.19.0.tgz#d1ec8b97b5fb7a94ce5254db4144b019c1053f37"
+  integrity sha512-4CZ6/1e9tNmLx8C6cK0mwXknFrcafXT0ZwnyMP/ujdXFMfIb7NrQQ3L0kkA/Nq/D+EcpKvFRmOsxnm6FOV9ZIA==
+  dependencies:
+    "@types/node" "^20.11.30"
+    "@types/sinonjs__fake-timers" "^8.1.5"
+    "@wdio/config" "9.19.0"
+    "@wdio/logger" "9.18.0"
+    "@wdio/protocols" "9.16.2"
+    "@wdio/repl" "9.16.2"
+    "@wdio/types" "9.19.0"
+    "@wdio/utils" "9.19.0"
+    archiver "^7.0.1"
+    aria-query "^5.3.0"
+    cheerio "^1.0.0-rc.12"
+    css-shorthand-properties "^1.1.1"
+    css-value "^0.0.1"
+    grapheme-splitter "^1.0.4"
+    htmlfy "^0.8.1"
+    is-plain-obj "^4.1.0"
+    jszip "^3.10.1"
+    lodash.clonedeep "^4.5.0"
+    lodash.zip "^4.2.0"
+    query-selector-shadow-dom "^1.0.1"
+    resq "^1.11.0"
+    rgb2hex "0.2.5"
+    serialize-error "^12.0.0"
+    urlpattern-polyfill "^10.0.0"
+    webdriver "9.19.0"
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
