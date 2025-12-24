@@ -713,16 +713,16 @@
     safe-regex2 "^5.0.0"
     strip-ansi "^7.1.0"
 
-"@wdio/mocha-framework@9.21.0":
-  version "9.21.0"
-  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-9.21.0.tgz#dec9eaabaf1466ea6a5c16e8da6113c64e9eeb3d"
-  integrity sha512-HFCtUX3ooMIIBnMS4iwfpZijX1DqdVhVBTnUwwRghOGBXf8V2GBFBoeUrC4QxqHEfCqBDaUTkRZhjaYZggoSIw==
+"@wdio/mocha-framework@9.22.0":
+  version "9.22.0"
+  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-9.22.0.tgz#80a585ef78ec4fc4e74c979e0ed6b392108998f8"
+  integrity sha512-HqEt1+eeaI+x5bgvZ3aEiWXEO/gOgA9B9xfCXXzQFiC3JxzK36nbSk+nO35gL5svi+RMuk2gxw5IqTXjSRSjrA==
   dependencies:
     "@types/mocha" "^10.0.6"
     "@types/node" "^20.11.28"
     "@wdio/logger" "9.18.0"
     "@wdio/types" "9.20.0"
-    "@wdio/utils" "9.21.0"
+    "@wdio/utils" "9.22.0"
     mocha "^10.3.0"
 
 "@wdio/protocols@7.27.0":
@@ -854,6 +854,26 @@
   version "9.21.0"
   resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-9.21.0.tgz#a833e8aff8d3a92a6257d8776f2d47778e177dc8"
   integrity sha512-aj8ao2V/e6Sv9gZby2ZIj4dMLjwYVba47Nlr+pOfK8N4VKKU0VRLPzvTlfK1HWaoS6u/GBbVx2pefYRrvd72BQ==
+  dependencies:
+    "@puppeteer/browsers" "^2.2.0"
+    "@wdio/logger" "9.18.0"
+    "@wdio/types" "9.20.0"
+    decamelize "^6.0.0"
+    deepmerge-ts "^7.0.3"
+    edgedriver "^6.1.2"
+    geckodriver "^6.1.0"
+    get-port "^7.0.0"
+    import-meta-resolve "^4.0.0"
+    locate-app "^2.2.24"
+    mitt "^3.0.1"
+    safaridriver "^1.0.0"
+    split2 "^4.2.0"
+    wait-port "^1.1.0"
+
+"@wdio/utils@9.22.0":
+  version "9.22.0"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-9.22.0.tgz#f5af22d29e476375b5bedb30ffea02c30a780227"
+  integrity sha512-5j2nn2bBjj41wxXsVT43sUMOKR0qiKNDRG1UcKQ6NkfsWFObSehMAS0a9ZZu//+ooTxRkwHjvLdQrXIrPnTLzg==
   dependencies:
     "@puppeteer/browsers" "^2.2.0"
     "@wdio/logger" "9.18.0"
