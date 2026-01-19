@@ -661,6 +661,15 @@
     "@wdio/types" "9.20.0"
     chalk "^5.0.1"
 
+"@wdio/dot-reporter@9.23.2":
+  version "9.23.2"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-9.23.2.tgz#c7b1e37c6dfe68a23d33c5c51bce420b6450baa7"
+  integrity sha512-3+5y7P4GS7UTIgr6zPhxKHMmDSwiNjgdwnWIUYXr2eQLcpnPGhc9GL1IEDgQEAcziXG9BfaKzZQHi+vH89PR5w==
+  dependencies:
+    "@wdio/reporter" "9.23.2"
+    "@wdio/types" "9.23.2"
+    chalk "^5.0.1"
+
 "@wdio/globals@9.23.0":
   version "9.23.0"
   resolved "https://registry.yarnpkg.com/@wdio/globals/-/globals-9.23.0.tgz#8da8535fae0f9e2f99f3853d5073af74734fad82"
@@ -760,6 +769,17 @@
     diff "^8.0.2"
     object-inspect "^1.12.0"
 
+"@wdio/reporter@9.23.2":
+  version "9.23.2"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-9.23.2.tgz#ea3ce0d242d57083f8da573ce85f651f18151478"
+  integrity sha512-+L1knNyQl+Xs+/VkM5JOX/HINe+g3ZVWt0Scsb9DcOCll8xG8jisxArutZLo+UuV6Bm1BzqfJJb/+ae04EuRAQ==
+  dependencies:
+    "@types/node" "^20.1.0"
+    "@wdio/logger" "9.18.0"
+    "@wdio/types" "9.23.2"
+    diff "^8.0.2"
+    object-inspect "^1.12.0"
+
 "@wdio/runner@9.23.0":
   version "9.23.0"
   resolved "https://registry.yarnpkg.com/@wdio/runner/-/runner-9.23.0.tgz#dba1185a9c408d795f68529d807fa250f81d9c3f"
@@ -829,6 +849,13 @@
   version "9.20.0"
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-9.20.0.tgz#59f01d7b86c83b1181d08655707fa2520fd15fdc"
   integrity sha512-zMmAtse2UMCSOW76mvK3OejauAdcFGuKopNRH7crI0gwKTZtvV89yXWRziz9cVXpFgfmJCjf9edxKFWdhuF5yw==
+  dependencies:
+    "@types/node" "^20.1.0"
+
+"@wdio/types@9.23.2":
+  version "9.23.2"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-9.23.2.tgz#75530e7ea00a1269863a946b3d9e5fbed40da090"
+  integrity sha512-ryfrERGsNp+aCcrTE1rFU6cbmDj8GHZ04R9k52KNt2u1a6bv3Eh5A/cUA0hXuMdEUfsc8ePLYdwQyOLFydZ0ig==
   dependencies:
     "@types/node" "^20.1.0"
 
