@@ -353,10 +353,10 @@
   resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz#6912b00d2c631c0d15ce1a7ab57cd657f2a8f8ba"
   integrity sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==
 
-"@nodable/entities@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@nodable/entities/-/entities-2.2.0.tgz#a1d45a992b022591b1c2b03a77935c939375b642"
-  integrity sha512-9uGyhaQavEUMC8AIddIjau4NsnsXhou+j5sBAGojCM1oxmQpVKTWR/9JxABD6UAv12vpIms55fPZKFQEhG6uBg==
+"@nodable/entities@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@nodable/entities/-/entities-3.0.0.tgz#694703bc864d30eaed55c2e3def00dbd61493670"
+  integrity sha512-8L9xFeTYKhm49xfIypoe2W5wV1m/3Z58kT+7kR9A8OyFxcPduI4VmxaUMQyKYrRjUoLLSXv6EKKID5Tvj9cUVw==
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -706,9 +706,9 @@
     "@wdio/logger" "9.29.1"
 
 "@zip.js/zip.js@^2.8.11":
-  version "2.8.26"
-  resolved "https://registry.yarnpkg.com/@zip.js/zip.js/-/zip.js-2.8.26.tgz#826a819f673e8284d0de785551ac37e9972ee794"
-  integrity sha512-RQ4h9F6DOiHxpdocUDrOl6xBM+yOtz+LkUol47AVWcfebGBDpZ7w7Xvz9PS24JgXvLGiXXzSAfdCdVy1tPlaFA==
+  version "2.8.33"
+  resolved "https://registry.yarnpkg.com/@zip.js/zip.js/-/zip.js-2.8.33.tgz#b3f613cb2287f70f444cfaa4373207b6fdebd87b"
+  integrity sha512-Mc+s4DdDl9lmhFmkOmNDryC/b4rZm7y2/qBUQTCwPYGkQ8dkCeykILqEYBd+14ATuj93XWZJBrPe2x+cF9LcGA==
 
 abort-controller@^3.0.0:
   version "3.0.0"
@@ -861,9 +861,9 @@ bare-stream@^2.6.4:
     teex "^1.0.1"
 
 bare-url@^2.2.2:
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/bare-url/-/bare-url-2.4.5.tgz#50d205f8f2724eec60fd091ba9cebd675fca63aa"
-  integrity sha512-K+y9xF1tN+CdPu4qWwr0QiK1Al07eFPGYK5M2pDXcmHdMdgC/tT/bpmMe1hrmRHaidKLkXrC+cRNYf3XVDUhSQ==
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/bare-url/-/bare-url-2.4.6.tgz#628f223160e03e7a3a0a5cd761f61c6444d1729b"
+  integrity sha512-iQxPClE07hETVpbRoX7JXX3v/ZQViCxe/SYCxylRLzdEx1xJAufPptfiOqR8tqiCtmbtMDANKWszzjLu1PMAZQ==
   dependencies:
     bare-path "^3.0.0"
 
@@ -1512,11 +1512,11 @@ fast-xml-builder@^1.2.0:
     xml-naming "^0.3.0"
 
 fast-xml-parser@^5.3.3:
-  version "5.10.0"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.10.0.tgz#8d08abfe4d6c51e9c5b51f417b994858dbedb4d7"
-  integrity sha512-SLhnTEqE5QpJHq/6zl9bsmImEP2adv+y6Wy+cJa7nVTRzQh1OZfCe9k29M5xN74LWnu0xa1zrUrq3KnOKl92Fg==
+  version "5.10.1"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.10.1.tgz#19313f7c9386c47fa4a1de527547b73ed2cfcede"
+  integrity sha512-IEMIf7298kXuZSRFoGfMYrl7is8LpavODgbNz1cwIudv7KwVFnuU+UsMporfq6PD6aXSlawZlARiA3UywCTfMw==
   dependencies:
-    "@nodable/entities" "^2.2.0"
+    "@nodable/entities" "^3.0.0"
     fast-xml-builder "^1.2.0"
     is-unsafe "^2.0.0"
     path-expression-matcher "^1.6.2"
@@ -2464,9 +2464,9 @@ randombytes@^2.1.0:
   integrity sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==
 
 "react-is-19@npm:react-is@^19.2.5":
-  version "19.2.7"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.7.tgz#57668ee86a78574a542b0a539455212b2c086df2"
-  integrity sha512-kZFnouyVv7eP/Phmrlo9FK+zcAdriZJvzxXHF1Sl1P377WSGe2G/JxVolhTrB/jeV47lKImhNUsijjHAAbcl/A==
+  version "19.2.8"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.8.tgz#09826f9fbc187bc668e3e5c62edc001f804d5018"
+  integrity sha512-s5un28nYxKJw5gvUHyW5PCC28CvBqLu9r3cWgzHT4Vo/5fqqkFcdRYsGcKf50WMPpjjFZS5d76fn3YCo2njKwQ==
 
 read-pkg-up@^10.0.0, read-pkg-up@^10.1.0:
   version "10.1.0"
@@ -2879,9 +2879,9 @@ tslib@^2.0.1, tslib@^2.1.0:
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tsx@^4.7.2:
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.23.0.tgz#5393ae8bfce5a9c34db9c00d1353e3d8c3fd3de6"
-  integrity sha512-eUdUIaCr963q2h5u3+QwvYp0+eqPvn+egeqZUm0hwERCqqx1E3kK5ehbGCvqSE5MQAULr67ww0cA3jKc3YkM1w==
+  version "4.23.1"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.23.1.tgz#1703da002ee4432b9a053917431f91462fca235b"
+  integrity sha512-GQHnkIfxyx1wYCOS/wonik5MVRZU9hi1TEZmzGZSCJB1y9YgoZ8H6itNE/u4suE+yLmOzuE4E5S4TZ/ZX2wcWQ==
   dependencies:
     esbuild "~0.28.0"
   optionalDependencies:
