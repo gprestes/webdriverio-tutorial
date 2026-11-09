@@ -728,16 +728,16 @@
     webdriver "9.32.0"
     webdriverio "9.32.0"
 
-"@wdio/spec-reporter@9.32.0":
-  version "9.32.0"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-9.32.0.tgz#889c76de6c5a14cf40aac8cf495ae2e96dbedbb6"
-  integrity sha512-WXL98WXqSGLffvDhLNsn4zD/sCGaWK1GF+i/gQsBxJN86vRiktL8XsB7q4SfBr7doyrR5+POwceX248M26bRgA==
+"@wdio/spec-reporter@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-10.2.0.tgz#73fde2bc7cd92f3621e78e14fdf4233493631509"
+  integrity sha512-RCuGXCJae/GM2ml2mB5M4yx56/nvjAvzN8cfMCF9zQnSearBOQ52fQ8qo+NSLJ/RJkjfhkTeC97CSUDrlBKo1A==
   dependencies:
-    "@wdio/reporter" "9.32.0"
-    "@wdio/types" "9.32.0"
-    chalk "^5.1.2"
+    "@wdio/reporter" "10.2.0"
+    "@wdio/types" "10.2.0"
+    chalk "^6.0.1"
     easy-table "^1.2.0"
-    pretty-ms "^9.0.0"
+    pretty-ms "^10.0.0"
 
 "@wdio/types@10.2.0":
   version "10.2.0"
@@ -2364,7 +2364,12 @@ pretty-format@30.5.1:
     "@jest/schemas" "30.5.0"
     ansi-styles "^5.2.0"
 
-pretty-ms@^9.0.0, pretty-ms@^9.2.0:
+pretty-ms@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-10.0.0.tgz#3a223bfea7625711955557f1a58389b80d9ed00c"
+  integrity sha512-6BWuxY2dCNgT45VnGzZcfNy7WeLqXiZqhhy4aHThTE6KI56R2ZBw9HQ7spPFKYchDizvJbPxTEknIpmW4FSmQA==
+
+pretty-ms@^9.2.0:
   version "9.3.1"
   resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-9.3.1.tgz#7b58d8fbf376f01602ff05230358e8fa5e0f072b"
   integrity sha512-HzMy3Geq23nVALD/M2LliU+F+M+gVNsvkQWWqeBZ8HDiCgzo6YPJ/Omrmtq24EFrIsk0a3EkQGEd7bDOo+IhGA==
