@@ -446,6 +446,13 @@
   dependencies:
     undici-types "~6.21.0"
 
+"@types/node@^22.20.4":
+  version "22.20.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.20.5.tgz#afa7bde6da81b8b83ea4e2f020487e9b148c11fd"
+  integrity sha512-U2+DNr+wSjpsTS/wZGYHq7GcwfuSmKiKvoPvK22zwTlRhU91yOniN4qRR5KhIjvif7ysw/dz/hKmfDH0Ris4aA==
+  dependencies:
+    undici-types "~6.21.0"
+
 "@types/normalize-package-data@^2.4.1":
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.4.tgz#56e2cc26c397c038fab0e3a917a12d5c5909e901"
@@ -573,6 +580,15 @@
     import-meta-resolve "^4.0.0"
     jiti "^2.6.1"
 
+"@wdio/dot-reporter@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-10.2.0.tgz#e86630f504beb1f833a1f46003a426234fe69f6e"
+  integrity sha512-/cfaIAXBOdTIuQJNxAspjCso7WH+5ULh2dMByreF7L1lrfrN18ce7d5jvONmCttJuR+PBt1TkkFBP2nDP9cDgg==
+  dependencies:
+    "@wdio/reporter" "10.2.0"
+    "@wdio/types" "10.2.0"
+    chalk "^6.0.1"
+
 "@wdio/dot-reporter@9.32.0":
   version "9.32.0"
   resolved "https://registry.yarnpkg.com/@wdio/dot-reporter/-/dot-reporter-9.32.0.tgz#623bd7b9cb38d85551faf450145e654b85a35927"
@@ -638,6 +654,16 @@
   dependencies:
     "@types/node" "^20.1.0"
 
+"@wdio/reporter@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-10.2.0.tgz#b84ff6bfa68ccb07fc3939e7227a8c6bdc1a4498"
+  integrity sha512-Cd3b9F3uUKEjICh9ClCJZ6x7MNcA5lX9GquylAtAwcSaJ1qmL0P2plVwRexyhybA9TM6sXWAe+0UK9kAS3SDVw==
+  dependencies:
+    "@types/node" "^22.20.4"
+    "@wdio/types" "10.2.0"
+    diff "^9.0.0"
+    object-inspect "^1.12.0"
+
 "@wdio/reporter@9.32.0":
   version "9.32.0"
   resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-9.32.0.tgz#62128fcea51f32d7dbc28b785b3e65359eef7530"
@@ -675,6 +701,13 @@
     chalk "^5.1.2"
     easy-table "^1.2.0"
     pretty-ms "^9.0.0"
+
+"@wdio/types@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-10.2.0.tgz#b1556aaffb4379d990c2cab11aaf4c158a0be2e3"
+  integrity sha512-a9qwqHzf0t2ctrXs+qUEhobH/VK0PmeoErCBWdN6DRxhTP8YiXQco4wjTj1z7H4k5xwZYxMT0KC0QzN/e4B73Q==
+  dependencies:
+    "@types/node" "^22.20.4"
 
 "@wdio/types@9.32.0":
   version "9.32.0"
@@ -961,6 +994,11 @@ chalk@^5.0.1, chalk@^5.1.2, chalk@^5.3.0, chalk@^5.4.1:
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.6.2.tgz#b1238b6e23ea337af71c7f8a295db5af0c158aea"
   integrity sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==
 
+chalk@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-6.0.1.tgz#077d4667ad6e608c9687782caed3d534d7f9abc3"
+  integrity sha512-/Ce6KNm3vIbWdMlNna6RVIZ/ICQxnJxCicet5LBKK9ZffBkqzDw0xh9EiKSljdRtiIQ1S1z4YgcscUUGzNCWrA==
+
 chardet@^2.1.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-2.2.0.tgz#005d664f2cbd4961888d2e2c32c5a69e59d8eec4"
@@ -1222,6 +1260,11 @@ diff@^8.0.2:
   version "8.0.4"
   resolved "https://registry.yarnpkg.com/diff/-/diff-8.0.4.tgz#4f5baf3188b9b2431117b962eb20ba330fadf696"
   integrity sha512-DPi0FmjiSU5EvQV0++GFDOJ9ASQUVFh5kD+OzOnYdi7n3Wpm9hWWGfB/O2blfHcMVTL5WkQXSnRiK9makhrcnw==
+
+diff@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-9.0.0.tgz#297c31cd7c280f13dfe335791ec2063bd4a73a6f"
+  integrity sha512-svtcdpS8CgJyqAjEQIXdb3OjhFVVYjzGAPO8WGCmRbrml64SPw/jJD4GoE98aR7r25A0XcgrK3F02yw9R/vhQw==
 
 dom-serializer@^2.0.0:
   version "2.0.0"
